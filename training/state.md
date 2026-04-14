@@ -9,6 +9,7 @@
 - **Goal:**
 - **Timeline / Upcoming events:**
 - **Coaching style preference:**
+- **Timezone:**
 
 ## Current Season
 *(Defined during First Session)*
