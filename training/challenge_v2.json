@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "last_updated_by": "coach",
+  "last_updated_at": "2026-01-01",
+  "challenge": {
+    "name": "My 60-Day Challenge",
+    "start_date": "2026-01-01",
+    "duration_days": 60,
+    "end_date": "2026-03-01"
+  },
+  "weekly_targets": {
+    "Morning Routine": {
+      "target": 7,
+      "source": "quest",
+      "quest_id": "morning_routine"
+    },
+    "Strength Training": {
+      "target": 2,
+      "source": "strava_pattern",
+      "pattern": "^Strength\\s*#"
+    },
+    "Sport": {
+      "target": 2,
+      "source": "strava_sport",
+      "sport_type": "Badminton",
+      "pattern": "^(Session|Training|Match)"
+    }
+  },
+  "main_quest": {
+    "id": "main",
+    "name": "20 Strength Sessions",
+    "type": "count_target",
+    "target": 20,
+    "count_from": "strava",
+    "count_pattern": "^Strength\\s*#",
+    "notes": "Regex matched against Strava activity names from challenge start date"
+  },
+  "quests": [
+    {
+      "id": "morning_routine",
+      "name": "Morning Routine",
+      "type": "daily_streak",
+      "category": "side",
+      "start_date": "2026-01-01",
+      "status": "active",
+      "polarity": "default_done",
+      "tracking": "manual",
+      "missed_dates": [],
+      "excused_dates": [],
+      "notes": "Daily morning routine — skips are excused on rest days"
+    },
+    {
+      "id": "example_progress",
+      "name": "Read a Book",
+      "type": "progress",
+      "category": "side",
+      "start_date": "2026-01-01",
+      "status": "active",
+      "tracking": "manual",
+      "current": 0,
+      "target": 10,
+      "unit": "chapters"
+    }
+  ]
+}
