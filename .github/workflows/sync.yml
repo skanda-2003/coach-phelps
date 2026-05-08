@@ -1,0 +1,75 @@
+name: Sync
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'training/challenge_v2.json'
+      - 'sessions/**'
+      - 'templates/**'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      CI: "true"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install requests
+
+      - name: Run sync pipeline
+        if: github.event_name == 'workflow_dispatch'
+        run: python scripts/run_sync_pipeline.py
+
+      - name: Maintain last_week folder
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          mkdir -p training/last_week
+          CUTOFF=$(date -d '7 days ago' +%Y-%m-%d)
+          rm -f training/last_week/*.json
+          for f in training/history/*.json; do
+            [ -f "$f" ] || continue
+            ACT_DATE=$(python3 -c "import json; print(json.load(open('$f')).get('start_date','')[:10])" 2>/dev/null || echo "")
+            if [ "$ACT_DATE" \> "$CUTOFF" ] || [ "$ACT_DATE" = "$CUTOFF" ]; then
+              cp "$f" training/last_week/
+            fi
+          done
+
+      - name: Commit pipeline changes
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            MSG=$(python3 -c "import json; print(json.load(open('training/sync_status.json'))['commit_message'])" 2>/dev/null || echo "core: sync pipeline run [skip ci]")
+            git commit -m "$MSG"
+            git push
+          fi
+
+      - name: Generate quest_log.md
+        if: github.event_name == 'push'
+        run: |
+          python scripts/generate_quest_log.py
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add training/quest_log.md
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "core: regenerate quest_log.md"
+            git push
+          fi
