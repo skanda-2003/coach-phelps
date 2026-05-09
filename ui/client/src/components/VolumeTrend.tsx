@@ -27,15 +27,15 @@ interface Props {
 
 const STACK_GROUPS = [
   { key: "foundation", label: "Foundation", color: CATEGORY_CONFIG.foundation.color },
-  { key: "calisthenics", label: "Calisthenics", color: CATEGORY_CONFIG.calisthenics.color },
-  { key: "badminton", label: "Badminton", color: CATEGORY_CONFIG.badminton_ranked.color },
-  { key: "ride", label: "Rides", color: CATEGORY_CONFIG.ride.color },
-  { key: "other", label: "Other", color: CATEGORY_CONFIG.other.color },
+  { key: "strength",   label: "Strength",   color: CATEGORY_CONFIG.strength.color },
+  { key: "run",        label: "Run",         color: CATEGORY_CONFIG.run.color },
+  { key: "badminton",  label: "Badminton",   color: CATEGORY_CONFIG.badminton_ranked.color },
+  { key: "other",      label: "Other",       color: CATEGORY_CONFIG.other.color },
 ];
 
 function categoryToStackGroup(cat: string): string {
   if (cat.startsWith("badminton")) return "badminton";
-  if (cat === "foundation" || cat === "calisthenics" || cat === "ride") return cat;
+  if (cat === "foundation" || cat === "strength" || cat === "run") return cat;
   return "other";
 }
 
