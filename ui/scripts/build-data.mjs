@@ -114,7 +114,7 @@ if (fs.existsSync(sessionsDir)) {
 }
 
 const workoutsPath = path.join(OUT_DIR, "workouts.json");
-fs.writeFileSync(workoutsPath, JSON.stringify(workouts, null, 0));
+fs.writeFileSync(workoutsPath, JSON.stringify(workouts, null, 2));
 console.log("✓ workouts.json written");
 
 // 4. Copy sync_status.json (if exists)
