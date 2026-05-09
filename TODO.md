@@ -1,43 +1,29 @@
-# coach-phelps-template — TODO
+# Skanda — Coach Phelps TODO
 
-## Done (v1)
-- [x] SOUL.md — generic Phelps identity + First Session Protocol
-- [x] training/state.md — blank athlete template
-- [x] training/challenge_v2.json — parameterized quest schema (config-driven patterns, no hardcoded sport logic)
-- [x] scripts/generate_quest_log.py — fully config-driven (weekly_targets + main quest regex from JSON)
-- [x] Strava sync scripts — fetch_strava.py, query_history.py, strava_api.py, oauth_reauth.py
-- [x] SETUP.md — clone → Strava auth → HR zones → first session guide
-- [x] .gitignore, .env.example
-- [x] README.md, CLAUDE.md
+## Now (Before June 5)
+
+- [ ] **Get automated daily sync working** — GitHub Action currently only runs on `workflow_dispatch`. Set up a daily cron trigger so new Strava activities appear automatically without manually hitting "Run workflow". Means `quest_log.md` stays fresh without any effort.
+
+- [ ] **Physio for the left lower back** — flagged in Active Injury Flags since May 1. Low-intensity badminton overhead shots are still enough to trigger it. Needs an in-person assessment before badminton picks back up in any serious way.
+
+- [ ] **May 30 — 15km long run** — the birthday run rehearsal. Holds in Zone 2, 4:1 walk-run. This is the checkpoint that tells us whether 7:00/km on June 5 is realistic, conservative, or a stretch. Don't skip this one.
 
 ---
 
-## P0 — V2 Core
+## After June 5
 
-- [ ] **Automated daily sync (GitHub Action)** — daily cron that runs `fetch_strava.py --sync` and pushes new history files. Removes the need to manually sync after every workout. Adapt from Sky's pipeline (strip badminton-specific steps).
+- [ ] **Rename activities consistently** — quest pattern matching (`.*Run.*`) is fragile if Strava names get messy. A config-driven rename script would make `count_pattern` matching bulletproof and the history cleaner to query.
 
-- [ ] **Workout template system** — blank template schema + SOUL.md section guiding Coach to build sport-specific templates during first session. Enables the session file workflow (`sessions/YYYY-MM-DD_<id>.json`) and opens the path to a timer app.
+- [ ] **Structured memory when coach_notes gets long** — once `training/coach_notes.md` hits ~600 lines (probably 3-4 months in), distill permanent patterns into `training/key_insights.md` and archive the old notes. Coach reads key_insights at boot instead of digging through the full log.
 
----
+- [ ] **Readiness score** — a daily 1-100 number derived from sleep, soreness, PRE score, and streak momentum. Right now Coach has to ask or infer. A score would let intensity calibration happen automatically without interrogating you every session.
 
-## P1 — V2 Enhancements
-
-- [ ] **Dashboard (coach-dashboard-template)** — separate repo fork. Generic only: activity heatmap, volume by sport type over time, HR zone distribution, streak counters. No match/game analytics (those are sport-specific extensions). Needs `build-data.mjs` equivalent that works from generic Strava history.
-
-- [ ] **Activity rename system** — config-driven rename pipeline. User defines sport → naming pattern mappings in a config file. Makes activity names consistent and makes quest `count_pattern` matching more reliable. Adapt `rename_core.py` to read from config instead of hardcoded sport logic.
-
-- [ ] **SOUL.md v2** — iterate on First Session Protocol and coaching quality after first 2-3 real users. Expected gaps: quest setup flow, weekly planning for unfamiliar sports, goal-setting depth.
+- [ ] **Travel/bodyweight mode** — detect travel context (no dumbbells, no gym) and switch to a bodyweight-only plan automatically. Return protocol to ramp back up safely. Relevant any time you're away for more than 2-3 days.
 
 ---
 
-## P2 — Later
+## Someday
 
-- [ ] **Proactive morning briefing** — scheduled task (GitHub Action or cron) that generates a daily briefing from state.md + quest_log.md and surfaces it via a notification or commit.
+- [ ] **Dashboard** — activity heatmap, volume by sport over time, HR zone distribution. Probably a separate repo. Not urgent while the coaching loop is working.
 
-- [ ] **Milestone quest type** — schema already supports `milestone` type but it's undocumented and unrendered in generate_quest_log.py. Document and implement rendering.
-
-- [ ] **Structured memory system** — when `training/coach_notes.md` exceeds ~600 lines, distill permanent patterns into `training/key_insights.md` and archive old notes. Relevant ~6 months in for active users.
-
-- [ ] **Travel/bodyweight mode** — Coach detects travel context and switches to a bodyweight-only plan. Return protocol to ramp back up. Define in SOUL.md.
-
-- [ ] **Readiness score** — daily 1-100 score derived from sleep, soreness, PRE, and streak data. Helps Coach calibrate session intensity without asking every time.
+- [ ] **Proactive morning briefing** — scheduled job that generates a daily summary from `state.md` + `quest_log.md` and surfaces it somewhere (notification, commit message, etc.).
