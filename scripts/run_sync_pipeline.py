@@ -94,7 +94,7 @@ def main():
         "activities_renamed": 0,
         "descriptions_parsed": 0,
         "warnings": [],
-        "commit_message": f"core: sync {now.strftime('%Y-%m-%d %H:%M')} UTC — {new_count} new [skip ci]",
+        "commit_message": f"core: sync {now.strftime('%Y-%m-%d %H:%M')} UTC - {new_count} new",
     }
     SYNC_STATUS_PATH.write_text(json.dumps(status, indent=2) + "\n")
     (DATA_DIR / "sync_status.json").write_text(json.dumps(status, indent=2) + "\n")
