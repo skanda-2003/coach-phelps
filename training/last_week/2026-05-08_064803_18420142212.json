@@ -1,0 +1,946 @@
+{
+  "resource_state": 3,
+  "athlete": {
+    "id": 36609517,
+    "resource_state": 1
+  },
+  "name": "Zone-2 Run",
+  "distance": 5278.3,
+  "moving_time": 3027,
+  "elapsed_time": 3095,
+  "total_elevation_gain": 25.0,
+  "type": "Run",
+  "sport_type": "Run",
+  "workout_type": null,
+  "device_name": "Garmin Forerunner 935",
+  "id": 18420142212,
+  "start_date": "2026-05-08T01:18:03Z",
+  "start_date_local": "2026-05-08T06:48:03Z",
+  "timezone": "(GMT+05:30) Asia/Kolkata",
+  "utc_offset": 19800.0,
+  "location_city": null,
+  "location_state": null,
+  "location_country": null,
+  "achievement_count": 0,
+  "kudos_count": 2,
+  "comment_count": 0,
+  "athlete_count": 1,
+  "photo_count": 0,
+  "map": {
+    "id": "a18420142212",
+    "polyline": "u~~mAcq`xMJMTOp@k@v@e@n@UtA_ATCRF\\f@N^T^NRP\\`@f@h@bAj@v@NLPZ~@zBjCzDbAhBRRx@|Af@fAVZd@`AA@_@a@_BiCw@eAK]]q@s@_A{@_B[w@iA}Ao@mAUYg@cAMOK[e@y@]u@]W]s@OQIA_@He@Zo@f@y@\\q@Ze@\\OPE@GCNQb@[p@YZWl@[b@]`Ae@D?TNF@f@b@TN|@zBv@hAZh@RLNRXj@LNHVVj@Xb@x@jBRLX`@^\\RZv@hBl@`A^d@bAvB?Be@[_@w@g@w@Wk@a@k@c@{@a@k@g@o@a@}@i@qAg@q@MIa@o@k@yAg@cAOKS]KYYUe@s@]q@Us@IKSEKBg@ZaBt@c@\\u@b@MNc@ZG?RS~AiAHKl@]z@c@d@[PCPDn@dAZn@zAhCx@z@LXd@j@n@nA\\dAZl@FHB@JJ`@t@dArAfA|BpAbCj@d@JVQOIQSO]y@}DeHKISa@W[KWMMGMOMKWQU[o@g@w@c@cAY][LI?EEABHFNIDICQ_@q@K[MUK]e@u@c@mAS[",
+    "resource_state": 3,
+    "summary_polyline": "cv~mAiw`xMTCRF\\f@N^T^NRP\\`@f@h@bAj@v@NLT`@z@tBjCzDbAhBRRPZlAdCX^d@`AA@_@a@_BiCw@eAK]]q@s@_A{@_B[w@iA}Ao@mAUYg@cAMOK[e@y@]u@]W]s@OQIA_@He@Zo@f@y@\\q@Ze@\\OPE@GCNQb@[p@YZWl@[b@]`Ae@D?TNF@f@b@TN|@zBv@hAZh@RLNRXj@LNHVVj@Xb@x@jBRLX`@^\\RZv@hBl@`A^d@bAvB?Be@[_@w@g@w@Wk@a@k@c@{@a@k@g@o@a@}@i@qAg@q@MIa@o@k@yAg@cAOKS]KYYUe@s@]q@Us@IKSEKBg@ZaBt@c@\\u@b@MNc@ZG?RS~AiAHKl@]z@c@d@[PCPDn@dAZn@zAhCx@z@LXd@j@n@nA\\dAZl@FHB@JJ`@t@dArAfA|BpAbCj@d@JVQOIQSO]y@}DeHKISa@W[KWMMGMOMKWQU[o@g@w@c@cAY][LI?EEABHFNIDICQ_@q@"
+  },
+  "trainer": false,
+  "commute": false,
+  "manual": false,
+  "private": false,
+  "visibility": "everyone",
+  "flagged": false,
+  "gear_id": "g20858822",
+  "start_latlng": [
+    12.943315,
+    77.504345
+  ],
+  "end_latlng": [
+    12.941773,
+    77.505493
+  ],
+  "average_speed": 1.744,
+  "max_speed": 3.1,
+  "average_cadence": 71.8,
+  "average_temp": 27,
+  "has_heartrate": true,
+  "average_heartrate": 136.0,
+  "max_heartrate": 157.0,
+  "heartrate_opt_out": false,
+  "display_hide_heartrate_option": true,
+  "elev_high": 834.4,
+  "elev_low": 821.4,
+  "upload_id": 19524804463,
+  "upload_id_str": "19524804463",
+  "external_id": "garmin_ping_568486125096",
+  "from_accepted_tag": false,
+  "pr_count": 0,
+  "total_photo_count": 0,
+  "has_kudoed": false,
+  "description": "",
+  "calories": 391.0,
+  "perceived_exertion": null,
+  "prefer_perceived_exertion": null,
+  "segment_efforts": [
+    {
+      "id": 3487653877312999758,
+      "resource_state": 2,
+      "name": "Towards Stadium",
+      "activity": {
+        "id": 18420142212,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 417,
+      "moving_time": 417,
+      "start_date": "2026-05-08T01:19:36Z",
+      "start_date_local": "2026-05-08T06:49:36Z",
+      "distance": 757.5,
+      "start_index": 26,
+      "end_index": 138,
+      "average_cadence": 68.8,
+      "device_watts": false,
+      "average_heartrate": 138.8,
+      "max_heartrate": 157.0,
+      "segment": {
+        "id": 18811003,
+        "resource_state": 2,
+        "name": "Towards Stadium",
+        "activity_type": "Run",
+        "distance": 757.5,
+        "average_grade": -0.4,
+        "maximum_grade": 10.5,
+        "elevation_high": 848.8,
+        "elevation_low": 837.4,
+        "start_latlng": [
+          12.942038,
+          77.505572
+        ],
+        "end_latlng": [
+          12.938058,
+          77.499857
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3487653877314312526,
+      "resource_state": 2,
+      "name": "Stadium to road",
+      "activity": {
+        "id": 18420142212,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 427,
+      "moving_time": 424,
+      "start_date": "2026-05-08T01:26:35Z",
+      "start_date_local": "2026-05-08T06:56:35Z",
+      "distance": 720.2,
+      "start_index": 139,
+      "end_index": 251,
+      "average_cadence": 68.2,
+      "device_watts": false,
+      "average_heartrate": 139.7,
+      "max_heartrate": 155.0,
+      "segment": {
+        "id": 18811015,
+        "resource_state": 2,
+        "name": "Stadium to road",
+        "activity_type": "Run",
+        "distance": 720.2,
+        "average_grade": 0.3,
+        "maximum_grade": 11.6,
+        "elevation_high": 848.9,
+        "elevation_low": 837.4,
+        "start_latlng": [
+          12.938143,
+          77.499823
+        ],
+        "end_latlng": [
+          12.941854,
+          77.505462
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3487653877316025678,
+      "resource_state": 2,
+      "name": "Towards Stadium",
+      "activity": {
+        "id": 18420142212,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 451,
+      "moving_time": 433,
+      "start_date": "2026-05-08T01:37:52Z",
+      "start_date_local": "2026-05-08T07:07:52Z",
+      "distance": 757.5,
+      "start_index": 315,
+      "end_index": 451,
+      "average_cadence": 64.6,
+      "device_watts": false,
+      "average_heartrate": 134.2,
+      "max_heartrate": 151.0,
+      "segment": {
+        "id": 18811003,
+        "resource_state": 2,
+        "name": "Towards Stadium",
+        "activity_type": "Run",
+        "distance": 757.5,
+        "average_grade": -0.4,
+        "maximum_grade": 10.5,
+        "elevation_high": 848.8,
+        "elevation_low": 837.4,
+        "start_latlng": [
+          12.942038,
+          77.505572
+        ],
+        "end_latlng": [
+          12.938058,
+          77.499857
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3487653877316473166,
+      "resource_state": 2,
+      "name": "Stadium to road",
+      "activity": {
+        "id": 18420142212,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 420,
+      "moving_time": 419,
+      "start_date": "2026-05-08T01:45:23Z",
+      "start_date_local": "2026-05-08T07:15:23Z",
+      "distance": 720.2,
+      "start_index": 451,
+      "end_index": 565,
+      "average_cadence": 66.4,
+      "device_watts": false,
+      "average_heartrate": 135.8,
+      "max_heartrate": 154.0,
+      "segment": {
+        "id": 18811015,
+        "resource_state": 2,
+        "name": "Stadium to road",
+        "activity_type": "Run",
+        "distance": 720.2,
+        "average_grade": 0.3,
+        "maximum_grade": 11.6,
+        "elevation_high": 848.9,
+        "elevation_low": 837.4,
+        "start_latlng": [
+          12.938143,
+          77.499823
+        ],
+        "end_latlng": [
+          12.941854,
+          77.505462
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3487653877315107150,
+      "resource_state": 2,
+      "name": "Towards Stadium",
+      "activity": {
+        "id": 18420142212,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 385,
+      "moving_time": 383,
+      "start_date": "2026-05-08T01:56:39Z",
+      "start_date_local": "2026-05-08T07:26:39Z",
+      "distance": 757.5,
+      "start_index": 641,
+      "end_index": 756,
+      "average_cadence": 68.9,
+      "device_watts": false,
+      "average_heartrate": 138.9,
+      "max_heartrate": 157.0,
+      "segment": {
+        "id": 18811003,
+        "resource_state": 2,
+        "name": "Towards Stadium",
+        "activity_type": "Run",
+        "distance": 757.5,
+        "average_grade": -0.4,
+        "maximum_grade": 10.5,
+        "elevation_high": 848.8,
+        "elevation_low": 837.4,
+        "start_latlng": [
+          12.942038,
+          77.505572
+        ],
+        "end_latlng": [
+          12.938058,
+          77.499857
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "everyone",
+      "hidden": false
+    },
+    {
+      "id": 3487653877312931150,
+      "resource_state": 2,
+      "name": "Stadium to road",
+      "activity": {
+        "id": 18420142212,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 394,
+      "moving_time": 363,
+      "start_date": "2026-05-08T02:03:04Z",
+      "start_date_local": "2026-05-08T07:33:04Z",
+      "distance": 720.2,
+      "start_index": 756,
+      "end_index": 865,
+      "average_cadence": 70.3,
+      "device_watts": false,
+      "average_heartrate": 137.9,
+      "max_heartrate": 153.0,
+      "segment": {
+        "id": 18811015,
+        "resource_state": 2,
+        "name": "Stadium to road",
+        "activity_type": "Run",
+        "distance": 720.2,
+        "average_grade": 0.3,
+        "maximum_grade": 11.6,
+        "elevation_high": 848.9,
+        "elevation_low": 837.4,
+        "start_latlng": [
+          12.938143,
+          77.499823
+        ],
+        "end_latlng": [
+          12.941854,
+          77.505462
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "only_me",
+      "hidden": false
+    }
+  ],
+  "splits_metric": [
+    {
+      "distance": 1001.5,
+      "elapsed_time": 565,
+      "elevation_difference": -7.8,
+      "moving_time": 565,
+      "split": 1,
+      "average_speed": 1.77,
+      "average_grade_adjusted_speed": 1.75,
+      "average_heartrate": 138.46181172291296,
+      "pace_zone": 1
+    },
+    {
+      "distance": 999.0,
+      "elapsed_time": 630,
+      "elevation_difference": 4.4,
+      "moving_time": 623,
+      "split": 2,
+      "average_speed": 1.6,
+      "average_grade_adjusted_speed": 1.65,
+      "average_heartrate": 134.44783306581058,
+      "pace_zone": 1
+    },
+    {
+      "distance": 999.8,
+      "elapsed_time": 634,
+      "elevation_difference": -4.0,
+      "moving_time": 616,
+      "split": 3,
+      "average_speed": 1.62,
+      "average_grade_adjusted_speed": 1.65,
+      "average_heartrate": 134.52032520325204,
+      "pace_zone": 1
+    },
+    {
+      "distance": 999.9,
+      "elapsed_time": 587,
+      "elevation_difference": 3.2,
+      "moving_time": 575,
+      "split": 4,
+      "average_speed": 1.74,
+      "average_grade_adjusted_speed": 1.77,
+      "average_heartrate": 134.32695652173913,
+      "pace_zone": 1
+    },
+    {
+      "distance": 1001.7,
+      "elapsed_time": 533,
+      "elevation_difference": -2.8,
+      "moving_time": 527,
+      "split": 5,
+      "average_speed": 1.9,
+      "average_grade_adjusted_speed": 1.92,
+      "average_heartrate": 136.6342857142857,
+      "pace_zone": 1
+    },
+    {
+      "distance": 276.4,
+      "elapsed_time": 146,
+      "elevation_difference": 2.2,
+      "moving_time": 121,
+      "split": 6,
+      "average_speed": 2.28,
+      "average_grade_adjusted_speed": 2.39,
+      "average_heartrate": 144.92561983471074,
+      "pace_zone": 2
+    }
+  ],
+  "splits_standard": [
+    {
+      "distance": 1612.2,
+      "elapsed_time": 939,
+      "elevation_difference": -3.4,
+      "moving_time": 936,
+      "split": 1,
+      "average_speed": 1.72,
+      "average_grade_adjusted_speed": 1.73,
+      "average_heartrate": 138.44218415417558,
+      "pace_zone": 1
+    },
+    {
+      "distance": 1612.1,
+      "elapsed_time": 1018,
+      "elevation_difference": -2.8,
+      "moving_time": 996,
+      "split": 2,
+      "average_speed": 1.62,
+      "average_grade_adjusted_speed": 1.65,
+      "average_heartrate": 133.42814070351758,
+      "pace_zone": 1
+    },
+    {
+      "distance": 1614.7,
+      "elapsed_time": 905,
+      "elevation_difference": -3.4,
+      "moving_time": 887,
+      "split": 3,
+      "average_speed": 1.82,
+      "average_grade_adjusted_speed": 1.84,
+      "average_heartrate": 135.01016949152543,
+      "pace_zone": 1
+    },
+    {
+      "distance": 439.3,
+      "elapsed_time": 233,
+      "elevation_difference": 4.8,
+      "moving_time": 208,
+      "split": 4,
+      "average_speed": 2.11,
+      "average_grade_adjusted_speed": 2.22,
+      "average_heartrate": 141.35576923076923,
+      "pace_zone": 2
+    }
+  ],
+  "laps": [
+    {
+      "id": 65895486151,
+      "resource_state": 2,
+      "name": "Lap 1",
+      "activity": {
+        "id": 18420142212,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 565,
+      "moving_time": 565,
+      "start_date": "2026-05-08T01:18:03Z",
+      "start_date_local": "2026-05-08T06:48:03Z",
+      "distance": 1000.0,
+      "average_speed": 1.77,
+      "max_speed": 2.74,
+      "lap_index": 1,
+      "split": 1,
+      "start_index": 0,
+      "end_index": 122,
+      "total_elevation_gain": 0.0,
+      "average_cadence": 73.6,
+      "device_watts": false,
+      "average_heartrate": 138.5,
+      "max_heartrate": 157.0,
+      "pace_zone": 1
+    },
+    {
+      "id": 65895486157,
+      "resource_state": 2,
+      "name": "Lap 2",
+      "activity": {
+        "id": 18420142212,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 630,
+      "moving_time": 630,
+      "start_date": "2026-05-08T01:27:39Z",
+      "start_date_local": "2026-05-08T06:57:39Z",
+      "distance": 1000.0,
+      "average_speed": 1.59,
+      "max_speed": 2.463,
+      "lap_index": 2,
+      "split": 2,
+      "start_index": 123,
+      "end_index": 293,
+      "total_elevation_gain": 12.8,
+      "average_cadence": 70.5,
+      "device_watts": false,
+      "average_heartrate": 134.2,
+      "max_heartrate": 155.0,
+      "pace_zone": 1
+    },
+    {
+      "id": 65895486166,
+      "resource_state": 2,
+      "name": "Lap 3",
+      "activity": {
+        "id": 18420142212,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 634,
+      "moving_time": 634,
+      "start_date": "2026-05-08T01:38:03Z",
+      "start_date_local": "2026-05-08T07:08:03Z",
+      "distance": 1000.0,
+      "average_speed": 1.58,
+      "max_speed": 2.457,
+      "lap_index": 3,
+      "split": 3,
+      "start_index": 294,
+      "end_index": 480,
+      "total_elevation_gain": 7.4,
+      "average_cadence": 69.3,
+      "device_watts": false,
+      "average_heartrate": 134.5,
+      "max_heartrate": 151.0,
+      "pace_zone": 1
+    },
+    {
+      "id": 65895486175,
+      "resource_state": 2,
+      "name": "Lap 4",
+      "activity": {
+        "id": 18420142212,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 586,
+      "moving_time": 586,
+      "start_date": "2026-05-08T01:48:39Z",
+      "start_date_local": "2026-05-08T07:18:39Z",
+      "distance": 1000.0,
+      "average_speed": 1.71,
+      "max_speed": 2.55,
+      "lap_index": 4,
+      "split": 4,
+      "start_index": 481,
+      "end_index": 646,
+      "total_elevation_gain": 5.8,
+      "average_cadence": 71.1,
+      "device_watts": false,
+      "average_heartrate": 134.3,
+      "max_heartrate": 157.0,
+      "pace_zone": 1
+    },
+    {
+      "id": 65895486187,
+      "resource_state": 2,
+      "name": "Lap 5",
+      "activity": {
+        "id": 18420142212,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 532,
+      "moving_time": 532,
+      "start_date": "2026-05-08T01:58:23Z",
+      "start_date_local": "2026-05-08T07:28:23Z",
+      "distance": 1000.0,
+      "average_speed": 1.88,
+      "max_speed": 3.1,
+      "lap_index": 5,
+      "split": 5,
+      "start_index": 647,
+      "end_index": 803,
+      "total_elevation_gain": 3.4,
+      "average_cadence": 72.7,
+      "device_watts": false,
+      "average_heartrate": 136.5,
+      "max_heartrate": 157.0,
+      "pace_zone": 1
+    },
+    {
+      "id": 65895486198,
+      "resource_state": 2,
+      "name": "Lap 6",
+      "activity": {
+        "id": 18420142212,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 146,
+      "moving_time": 146,
+      "start_date": "2026-05-08T02:07:15Z",
+      "start_date_local": "2026-05-08T07:37:15Z",
+      "distance": 278.26,
+      "average_speed": 1.91,
+      "max_speed": 2.75,
+      "lap_index": 6,
+      "split": 6,
+      "start_index": 804,
+      "end_index": 827,
+      "total_elevation_gain": 4.8,
+      "average_cadence": 80.9,
+      "device_watts": false,
+      "average_heartrate": 145.0,
+      "max_heartrate": 153.0,
+      "pace_zone": 1
+    }
+  ],
+  "best_efforts": [
+    {
+      "id": 77420481329,
+      "resource_state": 2,
+      "name": "400m",
+      "activity": {
+        "id": 18420142212,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 189,
+      "moving_time": 189,
+      "start_date": "2026-05-08T01:18:03Z",
+      "start_date_local": "2026-05-08T06:48:03Z",
+      "distance": 400,
+      "pr_rank": null,
+      "achievements": [],
+      "start_index": 778,
+      "end_index": 831
+    },
+    {
+      "id": 77420481330,
+      "resource_state": 2,
+      "name": "1/2 mile",
+      "activity": {
+        "id": 18420142212,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 419,
+      "moving_time": 419,
+      "start_date": "2026-05-08T01:18:03Z",
+      "start_date_local": "2026-05-08T06:48:03Z",
+      "distance": 805,
+      "pr_rank": null,
+      "achievements": [],
+      "start_index": 683,
+      "end_index": 801
+    },
+    {
+      "id": 77420481331,
+      "resource_state": 2,
+      "name": "1K",
+      "activity": {
+        "id": 18420142212,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 518,
+      "moving_time": 518,
+      "start_date": "2026-05-08T01:18:03Z",
+      "start_date_local": "2026-05-08T06:48:03Z",
+      "distance": 1000,
+      "pr_rank": null,
+      "achievements": [],
+      "start_index": 683,
+      "end_index": 838
+    },
+    {
+      "id": 77420481326,
+      "resource_state": 2,
+      "name": "1 mile",
+      "activity": {
+        "id": 18420142212,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 867,
+      "moving_time": 867,
+      "start_date": "2026-05-08T01:18:03Z",
+      "start_date_local": "2026-05-08T06:48:03Z",
+      "distance": 1609,
+      "pr_rank": null,
+      "achievements": [],
+      "start_index": 616,
+      "end_index": 863
+    },
+    {
+      "id": 77420481327,
+      "resource_state": 2,
+      "name": "2 mile",
+      "activity": {
+        "id": 18420142212,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 1844,
+      "moving_time": 1844,
+      "start_date": "2026-05-08T01:18:03Z",
+      "start_date_local": "2026-05-08T06:48:03Z",
+      "distance": 3219,
+      "pr_rank": null,
+      "achievements": [],
+      "start_index": 335,
+      "end_index": 864
+    },
+    {
+      "id": 77420481328,
+      "resource_state": 2,
+      "name": "5K",
+      "activity": {
+        "id": 18420142212,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 2944,
+      "moving_time": 2944,
+      "start_date": "2026-05-08T01:18:03Z",
+      "start_date_local": "2026-05-08T06:48:03Z",
+      "distance": 5000,
+      "pr_rank": null,
+      "achievements": [],
+      "start_index": 4,
+      "end_index": 832
+    }
+  ],
+  "gear": {
+    "id": "g20858822",
+    "primary": false,
+    "name": "Nike Pegasus 38",
+    "nickname": null,
+    "resource_state": 2,
+    "retired": false,
+    "distance": 82435,
+    "converted_distance": 82.4
+  },
+  "photos": {
+    "primary": null,
+    "count": 0
+  },
+  "stats_visibility": [
+    {
+      "type": "heart_rate",
+      "visibility": "everyone"
+    },
+    {
+      "type": "pace",
+      "visibility": "everyone"
+    },
+    {
+      "type": "power",
+      "visibility": "everyone"
+    },
+    {
+      "type": "speed",
+      "visibility": "everyone"
+    },
+    {
+      "type": "calories",
+      "visibility": "everyone"
+    }
+  ],
+  "hide_from_home": true,
+  "embed_token": "dac1ac00bd1417eb995aa09c3ee9bdf8964e107c",
+  "similar_activities": {
+    "effort_count": 3,
+    "average_speed": 2.119193725921849,
+    "min_average_speed": 1.7437396762471093,
+    "mid_average_speed": 2.0267648826027216,
+    "max_average_speed": 2.419466920514041,
+    "pr_rank": 3,
+    "frequency_milestone": 3,
+    "trend": {
+      "speeds": [
+        2.419466920514041,
+        2.3870382036323856,
+        2.1256417320859455
+      ],
+      "current_activity_index": 2,
+      "min_speed": 1.7437396762471093,
+      "mid_speed": 2.0267648826027216,
+      "max_speed": 2.419466920514041,
+      "direction": -1
+    },
+    "resource_state": 2
+  },
+  "available_zones": [],
+  "hr_zones": {
+    "Zone 1": {
+      "low": null,
+      "high": 131,
+      "seconds": 1057.0
+    },
+    "Zone 2": {
+      "low": 132,
+      "high": 145,
+      "seconds": 1355.0
+    },
+    "Zone 3": {
+      "low": 146,
+      "high": 158,
+      "seconds": 683.0
+    },
+    "Zone 4": {
+      "low": 159,
+      "high": 172,
+      "seconds": 0.0
+    },
+    "Zone 5": {
+      "low": 173,
+      "high": null,
+      "seconds": 0.0
+    }
+  }
+}

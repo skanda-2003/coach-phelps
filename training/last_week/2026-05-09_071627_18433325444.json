@@ -1,0 +1,422 @@
+{
+  "resource_state": 3,
+  "athlete": {
+    "id": 36609517,
+    "resource_state": 1
+  },
+  "name": "Nandi Hills Hike",
+  "distance": 6138.9,
+  "moving_time": 7969,
+  "elapsed_time": 13409,
+  "total_elevation_gain": 470.0,
+  "type": "Hike",
+  "sport_type": "Hike",
+  "device_name": "Garmin Forerunner 935",
+  "id": 18433325444,
+  "start_date": "2026-05-09T01:46:27Z",
+  "start_date_local": "2026-05-09T07:16:27Z",
+  "timezone": "(GMT+05:30) Asia/Kolkata",
+  "utc_offset": 19800.0,
+  "location_city": null,
+  "location_state": null,
+  "location_country": null,
+  "achievement_count": 0,
+  "kudos_count": 4,
+  "comment_count": 0,
+  "athlete_count": 1,
+  "photo_count": 0,
+  "map": {
+    "id": "a18433325444",
+    "polyline": "m_tpA}~byMF\\d@`A?BD?B@?HFJLFRTLTLJBHPPJFNBVTj@N`@`@EH\\LZ^P@PLHBFANHBPEXDj@JT@JTZP`@@HAR@JFLJJDJEDCAAFJKIHD@?CAD?GC@@L?MB?@BACB?LRf@j@HDH@BJEA@CD?FFBJLDFHRD?PBBH?BAF@C@H?LL?NLV@JEHA??EB?FHBAD@FNHF@HANM?AFEFDDFLJADB?DCDBACAF?A??B?G@B@EFAb@ABBD?JGB@DK@MJOBJBAA?@A?BB?ACE?@FBC?CE@BEB@DEDEFYT[?QDG?Dn@q@PIDAVQFB?KPQLG?HBAD]GGEKOG@A@BDCLFNJFCBEF_@DGB?DE@AC?C@JK?ILGADJEBGBA@MKU?EBGFB?EF??@BGCM@KDGC?B@BG?ECCAMBBFi@DKH_@BEA@DBACFAGC@URM?KDUBA?EBEASD[A@AC@@HUFCRg@AUDQCA?EXU@MEWDUDMLMR?F@LLGA@BDDDABYFGH@BGFI@KBEN?PERQDANH`@NHCN_@b@m@La@@MBGBAAADRAJC@@F?ECIME?GJU?IFMF_@Pk@PUDQHKDYNa@PMTc@D_@La@DI@?D]JKQc@KMk@]}@a@KQ?Gu@E]Ga@KWUCM@oACk@Be@BKBi@Gi@J[LWZYRIr@KH@nA\\PH`@ZZNd@b@^j@X\\Vl@\\nAFJTLNXNJNAVy@EFCXJ~@FF@A@DEP?BF@R?DHB`@EMQ?GDUEB@HICDENMGCCBMPSDKBIAIB@GDDBOKICOJAD?NHPHd@RPVLBDz@b@TRAD@B?Ae@ESISOGOq@m@Ka@G]A{@CEQEUAKIAEBEB@C@DC?BACFIMJEAEGIc@?OBEDHHf@DBNBJJNTVtBAA@AHHB?G?D@?ECDBB[n@@@ATKVEFq@f@Ih@S|BGTOjBCF@VDHLd@AJEJa@Zc@h@kALoAXS@m@COEa@OUQIBQECK@?BAACABFG?BBCAACHkABD@FLB@IGFGACDAVFBAC@}@ACBKEGj@CDC@EEMWKAUFCDDl@Ud@I`@BPR^c@?GFDTIJKHCREDCNOJEVKJCHDL?TQDAVI^?j@Qf@AHBPGb@ABK?E@QRAD@DEE@DEVKPQP@Va@RIRWFWPMDENCAAB@AA@AA?BCC@@BAKHCBECIFI\\Yp@IFMBI^KFSFK?QEK@KFE@ECKYBOBAC?@B@A?B@ECECHBACCBKAMEG?MEIICIIIOASGKIKI?QWYUY[c@QIMQKOUGE@MOMGQHW?EOOGYW_@AOMKQc@@IJW?IKSKEK?CEWCGCKWe@KGIGYCESKIAQGYS_@QIMICOWGOGEAIECIMKCUWFDBIGF",
+    "resource_state": 3,
+    "summary_polyline": "sxspA}vbyMXH`@`@EH\\LZ^P@PLHBFANHBPEXDj@JT@JTZP`@@HAR@JXd@EDCAAFJKIHD@?CAD?GC@@L?MDBACB?LRf@j@HDH@BJEAFCFFBJLDFHRD?PBBLAF@C@H?LL?NLV@JGH?EB?FHBAD@FNHF@HANM?ERB@FLJADBCLBCCAF?A??B?G@B@EFAb@ABBJADE@BFM@MJOBJFAGA@FBC?CE@FCJKFYT[?QDG?Dn@q@VKVQFB?KPQLG?HBAD]GGEKOG@ATFNJFCBEF_@DGHE@AC?C@JK?ILGADJEBGBA@MKU?EBGFB?EF??@BGCM@KDGC?B@BG?ECCAMBBFi@Rq@A@DBACFAGC@URMDa@BABKASD[CA@@HUFCRg@AUDQCA?EXU@MEWJa@LOR?F@LLGA@BJBBYFGH@BGFI@KBEN?PERQDANH`@NHCN_@b@m@La@@MFIAADRAJC@@F?ECIME?GJU?IFMF_@Pk@PUDQHKDYNa@PMTc@D_@La@FID]JKQc@KMk@]}@a@KQ?Gu@E]Ga@KWUCM@oACk@Be@BKBi@Gi@J[LWZYRIr@KH@nA\\PH`@ZZNd@b@^j@X\\Vl@\\nAFJTLNXNJNAVy@EFCXJ~@FF@A@DEP?BF@R?DHB`@EMQ?GDUEB@HICDENMGCCBMTYDOAIB@GDDBOKICOJAD?NHPHd@RPVLBDz@b@TRAD@Be@GSISOGOq@m@S_AA{@CEQEUAKIAEBEB@C@DC?BACFIMJEAM_@A[BEBBJl@TFJJNTVrBA?@AHHB?G?D@?ECDBB[n@@@ATKVEFq@f@Ih@S|BGTOjBCF@VDHLd@AJEJa@Zc@h@kALoAXaAAOEa@OUQIBQECK@?BAACABFG?BBCAACHkABD@FLB@IGFGAC\\DBAC@}@ACBKEGj@CDC@S]KAUFCDDl@Ud@I`@BPR^c@?GFDTIJKHCREDCNOJEVKJCHDL?TQDAVI^?j@Qf@AHBPGb@SDQRAD@DEE@DEV]b@@Va@RIRWFWPMDENCAAB@AC??BCCD?KHCBECIFI\\Sh@C@ADWJEXCDKFYFWEK@KFE@ECKYBOBAC?@B@A?B@ECECHBACCBKAMEG?MEIICIIIOASGKIKI?QWYUY[_@MMQQKOUGE@MOMGQHW?EOOGYW_@AOMKQc@@IJW?IKSKEK?CE_@GKW"
+  },
+  "trainer": false,
+  "commute": false,
+  "manual": false,
+  "private": false,
+  "visibility": "everyone",
+  "flagged": false,
+  "gear_id": "g22920174",
+  "start_latlng": [
+    13.378636,
+    77.680639
+  ],
+  "end_latlng": [
+    13.378403,
+    77.680115
+  ],
+  "average_speed": 0.77,
+  "max_speed": 3.12,
+  "average_cadence": 54.3,
+  "average_temp": 29,
+  "has_heartrate": true,
+  "average_heartrate": 110.2,
+  "max_heartrate": 164.0,
+  "heartrate_opt_out": false,
+  "display_hide_heartrate_option": true,
+  "elev_high": 1428.0,
+  "elev_low": 988.0,
+  "upload_id": 19538122881,
+  "upload_id_str": "19538122881",
+  "external_id": "garmin_ping_568951628314",
+  "from_accepted_tag": false,
+  "pr_count": 0,
+  "total_photo_count": 1,
+  "has_kudoed": false,
+  "description": "",
+  "calories": 927.0,
+  "perceived_exertion": null,
+  "prefer_perceived_exertion": null,
+  "segment_efforts": [
+    {
+      "id": 3488067121190682116,
+      "resource_state": 2,
+      "name": "nandi hills main road Climb",
+      "activity": {
+        "id": 18433325444,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 5716,
+      "moving_time": 2215,
+      "start_date": "2026-05-09T01:50:30Z",
+      "start_date_local": "2026-05-09T07:20:30Z",
+      "distance": 1789.3,
+      "start_index": 77,
+      "end_index": 1537,
+      "average_cadence": 10.3,
+      "device_watts": false,
+      "average_heartrate": 97.8,
+      "max_heartrate": 164.0,
+      "segment": {
+        "id": 6232610,
+        "resource_state": 2,
+        "name": "nandi hills main road Climb",
+        "activity_type": "Hike",
+        "distance": 1789.3,
+        "average_grade": 20.2,
+        "maximum_grade": 49.6,
+        "elevation_high": 1406.7,
+        "elevation_low": 1045.0,
+        "start_latlng": [
+          13.37768,
+          77.679443
+        ],
+        "end_latlng": [
+          13.371643,
+          77.680945
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 3,
+        "city": "Chikballapur, Karnataka, India",
+        "state": "KA",
+        "country": "India",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "only_me",
+      "hidden": false
+    },
+    {
+      "id": 3488067121192293892,
+      "resource_state": 2,
+      "name": "Nandi Hills Trek (descend)",
+      "activity": {
+        "id": 18433325444,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 2871,
+      "moving_time": 2081,
+      "start_date": "2026-05-09T04:39:46Z",
+      "start_date_local": "2026-05-09T10:09:46Z",
+      "distance": 1448.3,
+      "start_index": 2538,
+      "end_index": 3279,
+      "average_cadence": 24.4,
+      "device_watts": false,
+      "average_heartrate": 100.9,
+      "max_heartrate": 117.0,
+      "segment": {
+        "id": 36901760,
+        "resource_state": 2,
+        "name": "Nandi Hills Trek (descend)",
+        "activity_type": "Hike",
+        "distance": 1448.3,
+        "average_grade": -25.7,
+        "maximum_grade": 0.0,
+        "elevation_high": 1387.0,
+        "elevation_low": 1014.8,
+        "start_latlng": [
+          13.371964,
+          77.680479
+        ],
+        "end_latlng": [
+          13.37825,
+          77.679914
+        ],
+        "elevation_profile": null,
+        "elevation_profiles": null,
+        "climb_category": 0,
+        "city": null,
+        "state": "Karnataka",
+        "country": "India",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "pr_rank": null,
+      "achievements": [],
+      "visibility": "only_me",
+      "hidden": false
+    }
+  ],
+  "splits_metric": [
+    {
+      "distance": 1000.0,
+      "elapsed_time": 3041,
+      "elevation_difference": 179.2,
+      "moving_time": 3041,
+      "split": 1,
+      "average_speed": 0.33,
+      "average_grade_adjusted_speed": 0.73,
+      "average_heartrate": 123.66266986410871,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1001.0,
+      "elapsed_time": 3037,
+      "elevation_difference": 195.0,
+      "moving_time": 3037,
+      "split": 2,
+      "average_speed": 0.33,
+      "average_grade_adjusted_speed": 0.77,
+      "average_heartrate": 98.64905362776025,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1007.6,
+      "elapsed_time": 1005,
+      "elevation_difference": 61.6,
+      "moving_time": 1005,
+      "split": 3,
+      "average_speed": 1.0,
+      "average_grade_adjusted_speed": 1.41,
+      "average_heartrate": 132.2219730941704,
+      "pace_zone": 0
+    },
+    {
+      "distance": 992.0,
+      "elapsed_time": 1811,
+      "elevation_difference": -10.2,
+      "moving_time": 1811,
+      "split": 4,
+      "average_speed": 0.55,
+      "average_grade_adjusted_speed": 0.63,
+      "average_heartrate": 103.24507874015748,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1000.1,
+      "elapsed_time": 2006,
+      "elevation_difference": -144.6,
+      "moving_time": 1577,
+      "split": 5,
+      "average_speed": 0.63,
+      "average_grade_adjusted_speed": 0.68,
+      "average_heartrate": 105.27045650301464,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1002.5,
+      "elapsed_time": 2253,
+      "elevation_difference": -251.4,
+      "moving_time": 2253,
+      "split": 6,
+      "average_speed": 0.44,
+      "average_grade_adjusted_speed": 0.58,
+      "average_heartrate": 104.53051643192488,
+      "pace_zone": 0
+    },
+    {
+      "distance": 135.7,
+      "elapsed_time": 256,
+      "elevation_difference": -19.2,
+      "moving_time": 256,
+      "split": 7,
+      "average_speed": 0.53,
+      "average_grade_adjusted_speed": 0.6,
+      "average_heartrate": 108.77540106951872,
+      "pace_zone": 0
+    }
+  ],
+  "splits_standard": [
+    {
+      "distance": 1609.6,
+      "elapsed_time": 5451,
+      "elevation_difference": 316.2,
+      "moving_time": 5451,
+      "split": 1,
+      "average_speed": 0.3,
+      "average_grade_adjusted_speed": 0.69,
+      "average_heartrate": 113.67254528122021,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1609.5,
+      "elapsed_time": 1926,
+      "elevation_difference": 114.4,
+      "moving_time": 1926,
+      "split": 2,
+      "average_speed": 0.84,
+      "average_grade_adjusted_speed": 1.27,
+      "average_heartrate": 118.68958868894602,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1612.3,
+      "elapsed_time": 3284,
+      "elevation_difference": -108.8,
+      "moving_time": 2855,
+      "split": 3,
+      "average_speed": 0.56,
+      "average_grade_adjusted_speed": 0.62,
+      "average_heartrate": 104.84741784037558,
+      "pace_zone": 0
+    },
+    {
+      "distance": 1307.5,
+      "elapsed_time": 2748,
+      "elevation_difference": -311.4,
+      "moving_time": 2748,
+      "split": 4,
+      "average_speed": 0.48,
+      "average_grade_adjusted_speed": 0.61,
+      "average_heartrate": 104.41142557651992,
+      "pace_zone": 0
+    }
+  ],
+  "laps": [
+    {
+      "id": 65941360773,
+      "resource_state": 2,
+      "name": "Lap 1",
+      "activity": {
+        "id": 18433325444,
+        "visibility": "everyone",
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 36609517,
+        "resource_state": 1
+      },
+      "elapsed_time": 13409,
+      "moving_time": 12980,
+      "start_date": "2026-05-09T01:46:27Z",
+      "start_date_local": "2026-05-09T07:16:27Z",
+      "distance": 6138.93,
+      "average_speed": 0.47,
+      "max_speed": 3.12,
+      "lap_index": 1,
+      "split": 1,
+      "start_index": 0,
+      "end_index": 3144,
+      "total_elevation_gain": 511.0,
+      "average_cadence": 54.3,
+      "device_watts": false,
+      "average_heartrate": 110.2,
+      "max_heartrate": 164.0
+    }
+  ],
+  "gear": {
+    "id": "g22920174",
+    "primary": false,
+    "name": "Decathlon Forclaz Trekking Shoes",
+    "nickname": null,
+    "resource_state": 2,
+    "retired": false,
+    "distance": 76924,
+    "converted_distance": 76.9
+  },
+  "photos": {
+    "primary": {
+      "unique_id": "99DADA40-D931-4222-8D27-F56AFD6E1E77",
+      "urls": {
+        "600": "https://dgtzuqphqg23d.cloudfront.net/n-W8Rj0Y2dUyuPI2_M-sNptY6Mcw6UPg1jCEejU8lYw-576x768.jpg",
+        "100": "https://dgtzuqphqg23d.cloudfront.net/n-W8Rj0Y2dUyuPI2_M-sNptY6Mcw6UPg1jCEejU8lYw-96x128.jpg"
+      },
+      "source": 1,
+      "media_type": 1
+    },
+    "use_primary_photo": false,
+    "count": 1
+  },
+  "stats_visibility": [
+    {
+      "type": "heart_rate",
+      "visibility": "everyone"
+    },
+    {
+      "type": "pace",
+      "visibility": "everyone"
+    },
+    {
+      "type": "power",
+      "visibility": "everyone"
+    },
+    {
+      "type": "speed",
+      "visibility": "everyone"
+    },
+    {
+      "type": "calories",
+      "visibility": "everyone"
+    }
+  ],
+  "hide_from_home": false,
+  "embed_token": "79ce23d83a3f2f66aebffd2ba81689beec6bb9d1",
+  "available_zones": [],
+  "hr_zones": {
+    "Zone 1": {
+      "low": null,
+      "high": 131,
+      "seconds": 11893.0
+    },
+    "Zone 2": {
+      "low": 132,
+      "high": 145,
+      "seconds": 770.0
+    },
+    "Zone 3": {
+      "low": 146,
+      "high": 158,
+      "seconds": 682.0
+    },
+    "Zone 4": {
+      "low": 159,
+      "high": 172,
+      "seconds": 64.0
+    },
+    "Zone 5": {
+      "low": 173,
+      "high": null,
+      "seconds": 0.0
+    }
+  },
+  "local_photos": [
+    "/home/runner/work/coach-phelps-template/coach-phelps-template/training/photos/18433325444_0.jpg"
+  ]
+}
