@@ -16,6 +16,8 @@ export interface MainQuest {
   type: string;
   target: number;
   count_from: string;
+  count_pattern?: string;
+  event_date?: string;
   notes?: string;
 }
 
@@ -25,7 +27,7 @@ export interface Quest {
   type: "daily_streak" | "progress";
   category: string;
   start_date: string;
-  end_date: string;
+  end_date?: string;
   status: string;
   polarity?: "default_done" | "default_not_done";
   tracking: string;
@@ -40,7 +42,7 @@ export interface Quest {
 
 export interface WeeklyTargets {
   foundation: number;
-  calisthenics: number;
+  strength: number;
   badminton: number;
 }
 

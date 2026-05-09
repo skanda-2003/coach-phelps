@@ -25,29 +25,54 @@
   },
   "quests": [
     {
-      "id": "morning_workout",
-      "name": "6am Morning Workout",
+      "id": "cold_shower",
+      "name": "Cold Shower",
       "type": "daily_streak",
       "category": "side",
-      "start_date": "2026-04-29",
+      "start_date": "2026-05-09",
       "status": "active",
       "polarity": "default_done",
       "tracking": "manual",
-      "missed_dates": ["2026-04-30", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07"],
-      "excused_dates": ["2026-05-01", "2026-05-02"],
-      "notes": "Workout-first habit. Wake around 6am, workout done before 8-8:15am. Assume done every day unless logged as missed. No pure rest days — minimum mobility (30min) counts as done. A rest day is only excused if truly unavoidable (injury flare forcing full rest, illness). Don't be rigid about exact time — spirit is early morning workout before the workday."
+      "missed_dates": [],
+      "excused_dates": [],
+      "notes": "End every shower cold. Minimum 30 seconds. Assume done unless logged as missed."
     },
     {
-      "id": "strength_sessions",
-      "name": "Strength & Mobility",
+      "id": "6am_wakeup",
+      "name": "6am Wake-Up",
       "type": "daily_streak",
       "category": "side",
-      "start_date": "2026-04-28",
+      "start_date": "2026-05-09",
+      "status": "active",
+      "polarity": "default_done",
+      "tracking": "manual",
+      "missed_dates": [],
+      "excused_dates": [],
+      "notes": "Up by 6am. Assume done unless logged as missed. Spirit is early morning before the workday starts."
+    },
+    {
+      "id": "protein",
+      "name": "Protein Target",
+      "type": "daily_streak",
+      "category": "side",
+      "start_date": "2026-05-09",
       "status": "active",
       "polarity": "default_not_done",
       "tracking": "manual",
-      "completed_dates": ["2026-04-30", "2026-05-01"],
-      "notes": "Home strength and mobility sessions. Log each session completed. Target: 3x per week."
+      "completed_dates": [],
+      "notes": "Hit daily protein target. Log each day you hit the goal."
+    },
+    {
+      "id": "sleep",
+      "name": "8hrs Sleep",
+      "type": "daily_streak",
+      "category": "side",
+      "start_date": "2026-05-09",
+      "status": "active",
+      "polarity": "default_not_done",
+      "tracking": "manual",
+      "completed_dates": [],
+      "notes": "7.5-8hrs of sleep. Log each night you hit it. Track via Garmin or self-report."
     }
   ]
 }
