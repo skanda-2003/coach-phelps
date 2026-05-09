@@ -53,7 +53,7 @@ export function MissionBanner({ mainQuest, activities, challengeStartDate }: Pro
               {daysLeft}
             </span>
             <span className="text-[10px] uppercase tracking-widest text-background/50">
-              days to {mainQuest.name}
+              days to {mainQuest.name} birthday
             </span>
           </div>
 

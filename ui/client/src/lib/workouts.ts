@@ -3,7 +3,7 @@
  * Types for workout templates, sessions, and timer logic.
  */
 
-export type WorkoutType = "foundation" | "calisthenics" | "recovery" | "realign";
+export type WorkoutType = "foundation" | "strength" | "recovery" | "realign";
 export type ExerciseType = "timed" | "reps";
 
 export interface Exercise {
@@ -61,10 +61,10 @@ export interface WorkoutsData {
 // ─── Workout Type Config ───────────────────────────────────────────────────
 
 export const WORKOUT_TYPE_CONFIG: Record<WorkoutType, { label: string; color: string; icon: string }> = {
-  foundation:   { label: "FOUNDATION",   color: "#60a5fa", icon: "⚡" },
-  calisthenics: { label: "CALISTHENICS", color: "#3b4a6b", icon: "💪" },
-  recovery:     { label: "RECOVERY",     color: "#2dd4bf", icon: "🧘" },
-  realign:      { label: "REALIGN",      color: "#a78bfa", icon: "🔧" },
+  foundation: { label: "FOUNDATION", color: "#60a5fa", icon: "⚡" },
+  strength:   { label: "STRENGTH",   color: "#111111", icon: "💪" },
+  recovery:   { label: "RECOVERY",   color: "#2dd4bf", icon: "🧘" },
+  realign:    { label: "REALIGN",    color: "#a78bfa", icon: "🔧" },
 };
 
 // ─── Utilities ─────────────────────────────────────────────────────────────
