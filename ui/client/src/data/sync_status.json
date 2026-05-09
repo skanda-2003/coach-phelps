@@ -1,9 +1,9 @@
 {
   "status": "ok",
-  "timestamp": "2026-05-09T16:26:08.140594+00:00",
+  "timestamp": "2026-05-09T18:55:14.452810+00:00",
   "activities_synced": 342,
   "activities_renamed": 0,
   "descriptions_parsed": 0,
   "warnings": [],
-  "commit_message": "core: sync 2026-05-09 16:26 UTC - 0 new"
+  "commit_message": "core: sync 2026-05-09 18:55 UTC - 0 new"
 }
