@@ -1,65 +1,48 @@
 {
   "version": 2,
   "last_updated_by": "coach",
-  "last_updated_at": "2026-01-01",
+  "last_updated_at": "2026-05-09",
   "challenge": {
-    "name": "My 60-Day Challenge",
-    "start_date": "2026-01-01",
+    "name": "Birthday Run Season",
+    "start_date": "2026-04-28",
     "duration_days": 60,
-    "end_date": "2026-03-01"
-  },
-  "weekly_targets": {
-    "Morning Routine": {
-      "target": 7,
-      "source": "quest",
-      "quest_id": "morning_routine"
-    },
-    "Strength Training": {
-      "target": 2,
-      "source": "strava_pattern",
-      "pattern": "^Strength\\s*#"
-    },
-    "Sport": {
-      "target": 2,
-      "source": "strava_sport",
-      "sport_type": "Badminton",
-      "pattern": "^(Session|Training|Match)"
-    }
+    "end_date": "2026-06-27"
   },
   "main_quest": {
-    "id": "main",
-    "name": "20 Strength Sessions",
+    "id": "birthday_run",
+    "name": "23km on the 23rd",
     "type": "count_target",
-    "target": 20,
+    "target": 15,
     "count_from": "strava",
-    "count_pattern": "^Strength\\s*#",
-    "notes": "Regex matched against Strava activity names from challenge start date"
+    "count_pattern": ".*Run.*",
+    "event_date": "2026-06-05",
+    "notes": "15 training runs by June 5th birthday. ~3 runs/week over 5 weeks. Culminates in 23km birthday run."
   },
   "quests": [
     {
-      "id": "morning_routine",
-      "name": "Morning Routine",
+      "id": "morning_workout",
+      "name": "6am Morning Workout",
       "type": "daily_streak",
       "category": "side",
-      "start_date": "2026-01-01",
+      "start_date": "2026-04-29",
       "status": "active",
       "polarity": "default_done",
       "tracking": "manual",
-      "missed_dates": [],
-      "excused_dates": [],
-      "notes": "Daily morning routine — skips are excused on rest days"
+      "missed_dates": ["2026-04-30", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07"],
+      "excused_dates": ["2026-05-01", "2026-05-02"],
+      "notes": "Workout-first habit. Wake around 6am, workout done before 8-8:15am. Assume done every day unless logged as missed. No pure rest days — minimum mobility (30min) counts as done. A rest day is only excused if truly unavoidable (injury flare forcing full rest, illness). Don't be rigid about exact time — spirit is early morning workout before the workday."
     },
     {
-      "id": "example_progress",
-      "name": "Read a Book",
-      "type": "progress",
+      "id": "strength_sessions",
+      "name": "Strength & Mobility",
+      "type": "daily_streak",
       "category": "side",
-      "start_date": "2026-01-01",
+      "start_date": "2026-04-28",
       "status": "active",
+      "polarity": "default_not_done",
       "tracking": "manual",
-      "current": 0,
-      "target": 10,
-      "unit": "chapters"
+      "completed_dates": ["2026-04-30", "2026-05-01"],
+      "notes": "Home strength and mobility sessions. Log each session completed. Target: 3x per week."
     }
   ]
 }
