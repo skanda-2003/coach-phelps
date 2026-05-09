@@ -178,7 +178,7 @@ export function CommandStrip({ challengeData, foundationStreak, syncStatus }: Pr
               <Link href="/analytics">
                 <button
                   className="p-2 hover:bg-background/10 transition-colors"
-                  title="Match Analytics"
+                  title="Run Analytics"
                 >
                   <BarChart3 className="w-4 h-4" />
                 </button>
