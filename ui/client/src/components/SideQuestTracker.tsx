@@ -34,11 +34,10 @@ function daysSince(startDate: string): number {
 }
 
 const QUEST_COLORS: Record<string, string> = {
-  foundation: "#60a5fa",
-  cold_shower: "#2dd4bf",
-  visualization: "#a78bfa",
-  reading: "#f59e0b",
-  protein: "#ef4444",
+  cold_shower:  "#2dd4bf",
+  "6am_wakeup": "#ef4444",
+  protein:      "#f59e0b",
+  sleep:        "#a78bfa",
 };
 
 function getQuestColor(id: string): string {
@@ -67,9 +66,12 @@ function QuestBar({ label, current, target, color }: { label: string; current: n
 
 function MainQuestCard({ activities, challenge, mainQuest }: { activities: Activity[]; challenge: ChallengeMetadata; mainQuest: MainQuest }) {
   const target = mainQuest.target;
+  const pattern = mainQuest.count_pattern ? new RegExp(mainQuest.count_pattern, "i") : null;
   const completed = activities.filter((a) => {
-    const cat = getTrainingCategory(a);
-    return cat === "calisthenics" && a.start_date_local.slice(0, 10) >= challenge.start_date;
+    if (a.start_date_local.slice(0, 10) < challenge.start_date) return false;
+    // Match by name pattern if defined, otherwise fall back to run category
+    if (pattern) return pattern.test(a.name);
+    return getTrainingCategory(a) === "run";
   }).length;
   const pct = Math.min((completed / target) * 100, 100);
 
