@@ -66,10 +66,16 @@ export function CommandStrip({ challengeData, foundationStreak, syncStatus }: Pr
   const currentDay = daysSince(ch.start_date);
   const pct = Math.round((currentDay / ch.duration_days) * 100);
 
-  // Cold shower streak from quests array
+  // Cold shower streak
   const coldQuest = challengeData.quests.find((q) => q.id === "cold_shower");
   const coldStreak = coldQuest
     ? computeColdShowerStreak(coldQuest.start_date, coldQuest.missed_dates ?? [])
+    : 0;
+
+  // 6am wake-up streak (same default_done logic as cold shower)
+  const wakeupQuest = challengeData.quests.find((q) => q.id === "6am_wakeup");
+  const wakeupStreak = wakeupQuest
+    ? computeColdShowerStreak(wakeupQuest.start_date, wakeupQuest.missed_dates ?? [])
     : 0;
 
   // Challenge display name (e.g., "60-Day" from "60-Day Challenge")
@@ -147,6 +153,16 @@ export function CommandStrip({ challengeData, foundationStreak, syncStatus }: Pr
                   {coldStreak}d
                 </span>
               </div>
+
+              <span className="text-background/20">│</span>
+
+              {/* 6am wake-up streak */}
+              <div className="flex items-center gap-1.5">
+                <span className="text-[10px] uppercase tracking-wider text-background/50">6am</span>
+                <span className="text-xs font-mono font-bold" style={{ color: "#f59e0b" }}>
+                  {wakeupStreak}d
+                </span>
+              </div>
             </div>
 
             {/* Actions */}
@@ -194,6 +210,9 @@ export function CommandStrip({ challengeData, foundationStreak, syncStatus }: Pr
             <span className="text-background/30">·</span>
             <span className="uppercase tracking-wider text-background/50">Cold</span>
             <span className="font-mono font-bold" style={{ color: "#2dd4bf" }}>{coldStreak}d</span>
+            <span className="text-background/30">·</span>
+            <span className="uppercase tracking-wider text-background/50">6am</span>
+            <span className="font-mono font-bold" style={{ color: "#f59e0b" }}>{wakeupStreak}d</span>
             <span className="text-background/30">·</span>
             <span className="font-mono text-background/40">
               Day {Math.min(currentDay, ch.duration_days)} · {Math.min(pct, 100)}%

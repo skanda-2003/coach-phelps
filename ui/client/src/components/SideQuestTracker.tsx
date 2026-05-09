@@ -85,8 +85,8 @@ function MainQuestCard({ activities, challenge, mainQuest }: { activities: Activ
 
   // Pace: expected sessions by now
   const expectedByNow = (dayNum / totalDays) * target;
-  const pace = completed >= expectedByNow ? "ahead" : completed >= expectedByNow - 1 ? "on track" : "behind";
-  const paceColor = pace === "behind" ? "#FF4D00" : "#22c55e";
+  const paceStatus = completed >= expectedByNow ? "ahead" : completed >= expectedByNow - 1 ? "on track" : "behind";
+  const paceColor = paceStatus === "behind" ? "#FF4D00" : "#22c55e";
 
   return (
     <div className="mb-6">
@@ -106,6 +106,9 @@ function MainQuestCard({ activities, challenge, mainQuest }: { activities: Activ
           className="h-full transition-all duration-500 bg-foreground"
           style={{ width: `${pct}%` }}
         />
+      </div>
+      <div className="mt-1.5 text-[10px] font-mono" style={{ color: paceColor }}>
+        {paceStatus}
       </div>
     </div>
   );
