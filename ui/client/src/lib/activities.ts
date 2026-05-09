@@ -35,6 +35,7 @@ export interface Activity {
 
 export type TrainingCategory =
   | "foundation"
+  | "strength"
   | "calisthenics"
   | "recovery"
   | "realign"
@@ -50,11 +51,12 @@ export interface CategoryConfig {
   label: string;
   shortLabel: string;
   color: string;
-  group: "foundation" | "calisthenics" | "badminton" | "ride" | "other";
+  group: "foundation" | "strength" | "calisthenics" | "badminton" | "ride" | "other";
 }
 
 export const CATEGORY_CONFIG: Record<TrainingCategory, CategoryConfig> = {
   foundation:        { label: "FOUNDATION",        shortLabel: "FDN",  color: "#60a5fa", group: "foundation" },
+  strength:          { label: "STRENGTH",          shortLabel: "STR",  color: "#111111", group: "strength" },
   calisthenics:      { label: "CALISTHENICS",      shortLabel: "CAL",  color: "#3b4a6b", group: "calisthenics" },
   recovery:          { label: "RECOVERY",           shortLabel: "REC",  color: "#2dd4bf", group: "other" },
   realign:           { label: "REALIGN",            shortLabel: "RLN",  color: "#a78bfa", group: "other" },
@@ -70,6 +72,7 @@ export const CATEGORY_CONFIG: Record<TrainingCategory, CategoryConfig> = {
 // Group-level config for summary cards
 export const GROUP_CONFIG: Record<string, { label: string; color: string; categories: TrainingCategory[] }> = {
   foundation:   { label: "FOUNDATION",   color: "#60a5fa", categories: ["foundation"] },
+  strength:     { label: "STRENGTH",     color: "#111111", categories: ["strength"] },
   calisthenics: { label: "CALISTHENICS", color: "#3b4a6b", categories: ["calisthenics"] },
   badminton:    { label: "BADMINTON",    color: "#2d8a4e", categories: ["badminton_ranked", "badminton_friendly", "badminton_league", "badminton_casual"] },
   ride:         { label: "RIDES",        color: "#c47a20", categories: ["ride"] },
@@ -80,6 +83,9 @@ export function getTrainingCategory(activity: Activity): TrainingCategory {
 
   // Foundation
   if (/^Foundation\s*#/i.test(name)) return "foundation";
+
+  // Strength
+  if (/^Strength\s+(A|B)/i.test(name)) return "strength";
 
   // Calisthenics
   if (/^Calisthenics\s*#/i.test(name)) return "calisthenics";
@@ -111,7 +117,7 @@ export function getTrainingCategory(activity: Activity): TrainingCategory {
   // WeightTraining without enriched name — use duration heuristic
   if (activity.sport_type === "WeightTraining") {
     if (activity.elapsed_time < 1800) return "foundation"; // <30 min
-    return "calisthenics"; // >=30 min
+    return "strength"; // >=30 min
   }
 
   return "other";
@@ -202,11 +208,11 @@ export function formatZoneTime(seconds: number): string {
 }
 
 export const HR_ZONE_LABELS = [
-  { key: "Zone 1", label: "Z1", range: "<131", color: "#bfdbfe" },
-  { key: "Zone 2", label: "Z2", range: "132-145", color: "#22c55e" },
-  { key: "Zone 3", label: "Z3", range: "146-158", color: "#eab308" },
-  { key: "Zone 4", label: "Z4", range: "159-172", color: "#f97316" },
-  { key: "Zone 5", label: "Z5", range: "173+", color: "#ef4444" },
+  { key: "Zone 1", label: "Z1", range: "<120", color: "#bfdbfe" },
+  { key: "Zone 2", label: "Z2", range: "120-140", color: "#22c55e" },
+  { key: "Zone 3", label: "Z3", range: "141-160", color: "#eab308" },
+  { key: "Zone 4", label: "Z4", range: "161-180", color: "#f97316" },
+  { key: "Zone 5", label: "Z5", range: "181+", color: "#ef4444" },
 ];
 
 // ─── Aggregation ────────────────────────────────────────────────────────────

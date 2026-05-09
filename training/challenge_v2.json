@@ -18,6 +18,11 @@
     "event_date": "2026-06-05",
     "notes": "15 training runs by June 5th birthday. ~3 runs/week over 5 weeks. Culminates in 23km birthday run."
   },
+  "weekly_targets": {
+    "foundation": 3,
+    "strength": 3,
+    "badminton": 0
+  },
   "quests": [
     {
       "id": "morning_workout",
