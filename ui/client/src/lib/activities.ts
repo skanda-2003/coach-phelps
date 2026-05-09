@@ -43,6 +43,7 @@ export type TrainingCategory =
   | "badminton_friendly"
   | "badminton_league"
   | "badminton_casual"
+  | "hike"
   | "ride"
   | "run"
   | "other";
@@ -51,7 +52,7 @@ export interface CategoryConfig {
   label: string;
   shortLabel: string;
   color: string;
-  group: "foundation" | "strength" | "calisthenics" | "badminton" | "ride" | "other";
+  group: "foundation" | "strength" | "calisthenics" | "badminton" | "hike" | "ride" | "other";
 }
 
 export const CATEGORY_CONFIG: Record<TrainingCategory, CategoryConfig> = {
@@ -64,6 +65,7 @@ export const CATEGORY_CONFIG: Record<TrainingCategory, CategoryConfig> = {
   badminton_friendly:{ label: "FRIENDLY",           shortLabel: "FRN",  color: "#4ade80", group: "badminton" },
   badminton_league:  { label: "LEAGUE",             shortLabel: "LGE",  color: "#eab308", group: "badminton" },
   badminton_casual:  { label: "CASUAL",             shortLabel: "CAS",  color: "#84cc16", group: "badminton" },
+  hike:              { label: "HIKE",               shortLabel: "HIK",  color: "#8b6f47", group: "hike" },
   ride:              { label: "RIDE",               shortLabel: "RDE",  color: "#c47a20", group: "ride" },
   run:               { label: "RUN",                shortLabel: "RUN",  color: "#c44020", group: "other" },
   other:             { label: "OTHER",              shortLabel: "OTH",  color: "#777",    group: "other" },
@@ -74,6 +76,7 @@ export const GROUP_CONFIG: Record<string, { label: string; color: string; catego
   foundation:   { label: "FOUNDATION",   color: "#60a5fa", categories: ["foundation"] },
   strength:     { label: "STRENGTH",     color: "#111111", categories: ["strength"] },
   run:          { label: "RUN",          color: "#c44020", categories: ["run"] },
+  hike:         { label: "HIKE",         color: "#8b6f47", categories: ["hike"] },
   badminton:    { label: "BADMINTON",    color: "#2d8a4e", categories: ["badminton_ranked", "badminton_friendly", "badminton_league", "badminton_casual"] },
   calisthenics: { label: "CALISTHENICS", color: "#3b4a6b", categories: ["calisthenics"] },
   ride:         { label: "RIDES",        color: "#c47a20", categories: ["ride"] },
@@ -112,6 +115,7 @@ export function getTrainingCategory(activity: Activity): TrainingCategory {
 
   // Sport type fallbacks
   if (activity.sport_type === "Badminton") return "badminton_casual";
+  if (activity.sport_type === "Hike" || activity.sport_type === "Walk") return "hike";
   if (activity.sport_type === "Ride" || activity.sport_type === "EBikeRide") return "ride";
   if (activity.sport_type === "Run") return "run";
 

@@ -34,7 +34,7 @@ const MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Se
 
 const CATEGORY_PRIORITY = [
   "badminton_ranked", "badminton_friendly", "badminton_league", "badminton_casual",
-  "calisthenics", "foundation", "ride", "run", "recovery", "realign", "other",
+  "run", "hike", "strength", "calisthenics", "foundation", "recovery", "realign", "ride", "other",
 ];
 
 function buildDayMap(activities: Activity[]): Map<string, DayData> {
