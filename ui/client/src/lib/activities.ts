@@ -73,8 +73,9 @@ export const CATEGORY_CONFIG: Record<TrainingCategory, CategoryConfig> = {
 export const GROUP_CONFIG: Record<string, { label: string; color: string; categories: TrainingCategory[] }> = {
   foundation:   { label: "FOUNDATION",   color: "#60a5fa", categories: ["foundation"] },
   strength:     { label: "STRENGTH",     color: "#111111", categories: ["strength"] },
-  calisthenics: { label: "CALISTHENICS", color: "#3b4a6b", categories: ["calisthenics"] },
+  run:          { label: "RUN",          color: "#c44020", categories: ["run"] },
   badminton:    { label: "BADMINTON",    color: "#2d8a4e", categories: ["badminton_ranked", "badminton_friendly", "badminton_league", "badminton_casual"] },
+  calisthenics: { label: "CALISTHENICS", color: "#3b4a6b", categories: ["calisthenics"] },
   ride:         { label: "RIDES",        color: "#c47a20", categories: ["ride"] },
 };
 

@@ -1,25 +1,25 @@
 /**
  * WeeklySummaryCards — 4 category-specific cards showing this week's training.
  * Athlete OS: hard borders, monospace numbers, day-of-week dots.
- * v3: Weekly targets read from challenge_v2.json via props — zero hardcoded targets.
+ * Cards: Foundation / Run / Strength / Badminton
+ * Targets read from challenge_v2.json — zero hardcoded values.
  */
 import {
   Activity,
   getTrainingCategory,
   getThisWeekActivities,
-  formatDistance,
-  formatDurationShort,
-  totalTime,
-  parseWinLoss,
   GROUP_CONFIG,
+  parseWinLoss,
 } from "@/lib/activities";
-import type { Quest, WeeklyTargets } from "@/lib/challenge";
+import type { Quest, WeeklyTargets, MainQuest } from "@/lib/challenge";
 import { toLocalDateStr } from "@/lib/challenge";
 
 interface Props {
   activities: Activity[];
   weeklyTargets: WeeklyTargets;
   quests: Quest[];
+  mainQuest: MainQuest;
+  challengeStartDate: string;
 }
 
 const WEEKDAY_LABELS = ["M", "T", "W", "T", "F", "S", "S"];
@@ -38,7 +38,7 @@ function getThisWeekMonday(): Date {
   return monday;
 }
 
-function DayDots({ activeDays, target, color }: { activeDays: Set<number>; target?: number; color: string }) {
+function DayDots({ activeDays, color }: { activeDays: Set<number>; color: string }) {
   const now = new Date();
   const todayDow = (now.getDay() + 6) % 7;
 
@@ -47,8 +47,6 @@ function DayDots({ activeDays, target, color }: { activeDays: Set<number>; targe
       {WEEKDAY_LABELS.map((label, i) => {
         const done = activeDays.has(i);
         const isFuture = i > todayDow;
-        const isTarget = target ? i < target : i < 7;
-
         return (
           <div key={i} className="flex flex-col items-center gap-1">
             <div
@@ -69,7 +67,7 @@ function DayDots({ activeDays, target, color }: { activeDays: Set<number>; targe
 }
 
 function ProgressBar({ current, target, color }: { current: number; target: number; color: string }) {
-  const pct = Math.min((current / target) * 100, 100);
+  const pct = target > 0 ? Math.min((current / target) * 100, 100) : 0;
   return (
     <div className="h-2 bg-muted mt-2 overflow-hidden">
       <div className="h-full transition-all duration-500" style={{ width: `${pct}%`, backgroundColor: color }} />
@@ -85,11 +83,7 @@ function SummaryCard({ children }: { children: React.ReactNode }) {
   );
 }
 
-/**
- * Foundation count derived from quest data (default_done polarity):
- * eligible days this week - missed - excused = completed.
- * Day dots also derived from quest data, not Strava.
- */
+// Foundation: derived from quest data (default_done polarity)
 function FoundationCard({ quest, target }: { quest: Quest | undefined; target: number }) {
   const config = GROUP_CONFIG.foundation;
   const monday = getThisWeekMonday();
@@ -110,11 +104,10 @@ function FoundationCard({ quest, target }: { quest: Quest | undefined; target: n
     const excused = new Set(quest.excused_dates ?? []);
     const allMissed = new Set([...missed, ...excused]);
 
-    // Walk each day of the week
     const d = new Date(effectiveStart);
     while (d <= effectiveEnd) {
       const ds = toLocalDateStr(d);
-      const dow = (d.getDay() + 6) % 7; // 0=Mon
+      const dow = (d.getDay() + 6) % 7;
       if (!allMissed.has(ds)) {
         count++;
         activeDays.add(dow);
@@ -133,22 +126,70 @@ function FoundationCard({ quest, target }: { quest: Quest | undefined; target: n
         <span className="text-sm text-muted-foreground font-mono">/{target}</span>
       </div>
       <ProgressBar current={count} target={target} color={config.color} />
-      <DayDots activeDays={activeDays} target={7} color={config.color} />
+      <DayDots activeDays={activeDays} color={config.color} />
     </SummaryCard>
   );
 }
 
-function CalisthenicsCard({ activities, target }: { activities: Activity[]; target: number }) {
+// Run: weekly count + pace toward the main quest total (15 runs by June 5)
+function RunCard({ activities, challengeStartDate, mainQuest }: {
+  activities: Activity[];
+  challengeStartDate: string;
+  mainQuest: MainQuest;
+}) {
+  const config = GROUP_CONFIG.run;
   const thisWeek = getThisWeekActivities(activities);
-  const config = GROUP_CONFIG.calisthenics;
-  const calThisWeek = thisWeek.filter((a) => getTrainingCategory(a) === "calisthenics");
-  const activeDays = new Set(calThisWeek.map((a) => getDayOfWeek(a.start_date_local)));
-  const count = calThisWeek.length;
+  const runsThisWeek = thisWeek.filter((a) => getTrainingCategory(a) === "run");
+  const activeDays = new Set(runsThisWeek.map((a) => getDayOfWeek(a.start_date_local)));
 
-  // Extract workout type from name (e.g., "Calisthenics #7: FL & Handstand" → "FL & Handstand")
-  const workoutTypes = calThisWeek.map((a) => {
-    const match = a.name.match(/Calisthenics\s*#\d+:\s*(.+)/i);
-    return match ? match[1].trim() : "Session";
+  // Total runs since challenge start
+  const totalRuns = activities.filter(
+    (a) => getTrainingCategory(a) === "run" && a.start_date_local.slice(0, 10) >= challengeStartDate
+  ).length;
+
+  const target = mainQuest.target;
+
+  // Pace: runs needed per week to hit target by event_date
+  let paceLabel: string | null = null;
+  if (mainQuest.event_date) {
+    const now = new Date();
+    const eventDate = new Date(mainQuest.event_date);
+    const daysLeft = Math.max(Math.ceil((eventDate.getTime() - now.getTime()) / (1000 * 60 * 60 * 24)), 0);
+    const weeksLeft = Math.max(daysLeft / 7, 0.1);
+    const runsLeft = Math.max(target - totalRuns, 0);
+    const needed = (runsLeft / weeksLeft).toFixed(1);
+    paceLabel = `${totalRuns}/${target} total · ${needed}/wk needed`;
+  }
+
+  return (
+    <SummaryCard>
+      <h3 className="text-[10px] font-bold uppercase tracking-[0.2em] text-muted-foreground mb-1">
+        {config.label}
+      </h3>
+      <div className="flex items-baseline gap-1">
+        <span className="metric-lg">{runsThisWeek.length}</span>
+        <span className="text-sm text-muted-foreground font-mono">this week</span>
+      </div>
+      {paceLabel && (
+        <div className="mt-2 text-[10px] font-mono text-muted-foreground">{paceLabel}</div>
+      )}
+      <ProgressBar current={totalRuns} target={target} color={config.color} />
+      <DayDots activeDays={activeDays} color={config.color} />
+    </SummaryCard>
+  );
+}
+
+// Strength: weekly sessions toward the 3x/week target
+function StrengthCard({ activities, target }: { activities: Activity[]; target: number }) {
+  const config = GROUP_CONFIG.strength;
+  const thisWeek = getThisWeekActivities(activities);
+  const strengthThisWeek = thisWeek.filter((a) => getTrainingCategory(a) === "strength");
+  const activeDays = new Set(strengthThisWeek.map((a) => getDayOfWeek(a.start_date_local)));
+  const count = strengthThisWeek.length;
+
+  const workoutTypes = strengthThisWeek.map((a) => {
+    const match = a.name.match(/Strength\s+(A|B)/i);
+    return match ? `Strength ${match[1]}` : a.name;
   });
 
   return (
@@ -161,7 +202,7 @@ function CalisthenicsCard({ activities, target }: { activities: Activity[]; targ
         <span className="text-sm text-muted-foreground font-mono">/{target}</span>
       </div>
       <ProgressBar current={count} target={target} color={config.color} />
-      {workoutTypes.length > 0 && (
+      {workoutTypes.length > 0 ? (
         <div className="mt-3 space-y-1">
           {workoutTypes.map((wt, i) => (
             <div key={i} className="text-[10px] font-mono text-muted-foreground">
@@ -169,14 +210,14 @@ function CalisthenicsCard({ activities, target }: { activities: Activity[]; targ
             </div>
           ))}
         </div>
-      )}
-      {workoutTypes.length === 0 && (
+      ) : (
         <DayDots activeDays={activeDays} color={config.color} />
       )}
     </SummaryCard>
   );
 }
 
+// Badminton: session count + optional win/loss record (no weekly target currently)
 function BadmintonCard({ activities, target }: { activities: Activity[]; target: number }) {
   const thisWeek = getThisWeekActivities(activities);
   const config = GROUP_CONFIG.badminton;
@@ -185,14 +226,7 @@ function BadmintonCard({ activities, target }: { activities: Activity[]; target:
   const activeDays = new Set(badThisWeek.map((a) => getDayOfWeek(a.start_date_local)));
   const count = badThisWeek.length;
 
-  // Aggregate win/loss from descriptions.
-  // Only badminton_ranked sessions (Monday Hit & Run) count toward ranked record.
-  // Friendly sessions (Thursday) have a summary line that reflects friendly games,
-  // not ranked games — including them in rankedWins/rankedLosses was the bug.
-  let rankedWins = 0;
-  let rankedLosses = 0;
-  let allWins = 0;
-  let allLosses = 0;
+  let rankedWins = 0, rankedLosses = 0, allWins = 0, allLosses = 0;
   for (const a of badThisWeek) {
     const wl = parseWinLoss(a.description);
     if (wl) {
@@ -216,7 +250,9 @@ function BadmintonCard({ activities, target }: { activities: Activity[]; target:
       </h3>
       <div className="flex items-baseline gap-2">
         <span className="metric-lg">{count}</span>
-        <span className="text-sm text-muted-foreground font-mono">/{target}</span>
+        {target > 0 && (
+          <span className="text-sm text-muted-foreground font-mono">/{target}</span>
+        )}
         {hasRecord && (
           <div className="flex flex-col ml-2">
             <span className="text-xs font-mono text-muted-foreground">
@@ -230,55 +266,22 @@ function BadmintonCard({ activities, target }: { activities: Activity[]; target:
           </div>
         )}
       </div>
-      <ProgressBar current={count} target={target} color={config.color} />
+      {target > 0 && <ProgressBar current={count} target={target} color={config.color} />}
       <DayDots activeDays={activeDays} color={config.color} />
     </SummaryCard>
   );
 }
 
-function RidesCard({ activities }: { activities: Activity[] }) {
-  const thisWeek = getThisWeekActivities(activities);
-  const config = GROUP_CONFIG.ride;
-  const ridesThisWeek = thisWeek.filter((a) => getTrainingCategory(a) === "ride");
-  const count = ridesThisWeek.length;
-  const totalDist = ridesThisWeek.reduce((sum, a) => sum + (a.distance || 0), 0);
-  const totalSec = totalTime(ridesThisWeek);
-
-  return (
-    <SummaryCard>
-      <h3 className="text-[10px] font-bold uppercase tracking-[0.2em] text-muted-foreground mb-1">
-        {config.label}
-      </h3>
-      <div className="flex items-baseline gap-2">
-        <span className="metric-lg">{count}</span>
-        <span className="text-xs text-muted-foreground uppercase">rides</span>
-      </div>
-      {totalDist > 0 && (
-        <div className="mt-2 flex gap-4">
-          <div>
-            <div className="metric-sm">{formatDistance(totalDist)}</div>
-            <div className="text-[9px] text-muted-foreground uppercase">Distance</div>
-          </div>
-          <div>
-            <div className="metric-sm">{formatDurationShort(totalSec)}</div>
-            <div className="text-[9px] text-muted-foreground uppercase">Time</div>
-          </div>
-        </div>
-      )}
-    </SummaryCard>
-  );
-}
-
-export function WeeklySummaryCards({ activities, weeklyTargets, quests }: Props) {
+export function WeeklySummaryCards({ activities, weeklyTargets, quests, mainQuest, challengeStartDate }: Props) {
   const foundationQuest = quests.find((q) => q.id === "foundation");
 
   return (
     <div className="container pt-6">
       <div className="grid grid-cols-2 xl:grid-cols-4 gap-6">
         <FoundationCard quest={foundationQuest} target={weeklyTargets.foundation} />
-        <CalisthenicsCard activities={activities} target={weeklyTargets.calisthenics} />
+        <RunCard activities={activities} challengeStartDate={challengeStartDate} mainQuest={mainQuest} />
+        <StrengthCard activities={activities} target={weeklyTargets.strength} />
         <BadmintonCard activities={activities} target={weeklyTargets.badminton} />
-        <RidesCard activities={activities} />
       </div>
     </div>
   );

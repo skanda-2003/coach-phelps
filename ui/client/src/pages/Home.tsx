@@ -84,7 +84,13 @@ export default function Home() {
       <div className="border-b-2 border-foreground" />
 
       {/* Weekly Summary Cards */}
-      <WeeklySummaryCards activities={activities} weeklyTargets={challengeData.weekly_targets} quests={challengeData.quests} />
+      <WeeklySummaryCards
+        activities={activities}
+        weeklyTargets={challengeData.weekly_targets}
+        quests={challengeData.quests}
+        mainQuest={challengeData.main_quest}
+        challengeStartDate={challengeData.challenge.start_date}
+      />
 
       {/* Volume Trend + HR Trend */}
       <VolumeTrend activities={activities} />
