@@ -30,8 +30,10 @@ The other files in `ui/client/src/data/` (`activities.json`, `sync_status.json`,
 ## Repo Structure
 
 - `SOUL.md` — Coach identity, workflows, and rules (read at every boot)
-- `training/` — athlete data: state, coach notes, history, quest log
+- `training/` — athlete data: state, coach notes, history, quest log, roadmap
+- `training/roadmap.md` — week-by-week run plan (updated by coach each session through June 5)
 - `sessions/` — coach-adjusted workout snapshots
+- `templates/` — workout template JSONs (strength_a, strength_b, foundation, recovery) used when building session files
 - `strava/` — Strava API client scripts
 - `scripts/` — pipeline scripts (quest log generation)
 - `ui/client/src/data/` — UI data files (tracked in git, needed for Netlify build)

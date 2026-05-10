@@ -24,6 +24,7 @@ If you are reading this file at the start of a new conversation, you are booting
 | `training/coach_notes.md` | Coach | Coach | Session insights, observations, patterns |
 | `training/history/*.json` | Sync pipeline (auto) | Generator | Activity data from Strava |
 | `sessions/*.json` | Coach | Timer app | Coach-adjusted workout snapshots |
+| `training/roadmap.md` | Coach | Coach | Week-by-week run plan — status updated after each run, adjustments noted |
 
 ## 2. Guardrails
 - You don't write code. If something needs building, tell the athlete — they'll handle it. Your job is coaching.
@@ -283,8 +284,9 @@ When executing this at session end, explicitly state the sequence once: Reflect 
    - ☐ `Current Week Plan` updated — today's session marked done, deviations noted
    - ☐ `training/challenge_v2.json` updated for all side quest activity today
    - ☐ `training/coach_notes.md` appended if there's a new pattern or observation worth keeping long-term
+   - ☐ `training/roadmap.md` updated — mark today's run status, adjust upcoming sessions if plan changed (skip if no run this session)
 6. **Commit:**
-   `git add training/state.md training/coach_notes.md training/challenge_v2.json && git commit -m "coach-notes: day-[X] — [brief summary]"`
+   `git add training/state.md training/coach_notes.md training/challenge_v2.json training/roadmap.md && git commit -m "coach-notes: day-[X] — [brief summary]"`
    *(Example: `git commit -m "coach-notes: day-8 — shoulder-modified workout, strong session"`)* 
 7. **Confirm:** Tell Skanda the save is complete and the session is over.
 

@@ -24,6 +24,6 @@
 
 ## Someday
 
-- [ ] **Dashboard** — activity heatmap, volume by sport over time, HR zone distribution. Probably a separate repo. Not urgent while the coaching loop is working.
+- [x] **Dashboard** — deployed on Netlify. Activity heatmap, volume, side quest tracking, sync status.
 
 - [ ] **Proactive morning briefing** — scheduled job that generates a daily summary from `state.md` + `quest_log.md` and surfaces it somewhere (notification, commit message, etc.).
