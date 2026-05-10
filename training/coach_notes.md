@@ -140,3 +140,15 @@ Strong return after 4-day gap. Used walk-run method independently — stopped wh
 Zone 1 effort the whole way. Legs felt completely fresh going in after yesterday's run — consistent with proper Zone 2 execution on May 8. The extra time on trail was spent helping someone who was struggling to finish the hike. Good instinct from him.
 
 **Plan adjustment:** Saturday run swapped to hike. Sunday (May 10) becomes the Zone 2 run (4-5km), Monday (May 11) becomes Strength A.
+
+---
+
+## 2026-05-10 — Rest/Conversation day
+
+Sleep deprived going into today: hike on May 9 was on 4hrs sleep (worked late May 8 night), then worked till 2AM May 9-10 night — only 5-6hrs. Napped 11am-3pm. Cold shower and 6am wake-up both excused, not lazy — work-forced. Strength A planned for 6-7pm evening.
+
+**Injury flags update:** Skanda confirmed the left lower back is fully resolved — it was deconditioning from a long badminton gap, not structural. Back flag cleared. Shoulder also confirmed fully resolved (was from extended badminton run, not ongoing). Both flags removed. Right elbow golfer's elbow is the only active flag.
+
+**Rehab program started:** Added eccentric wrist curls, reverse wrist curls, and wrist flexor stretch as a dedicated Shoulder & Elbow phase in Strength A, and as a Shoulder phase + Elbow Rehab phase in Strength B. Shoulder strengthening (Y raises, external rotation) also added to both. Skanda correctly identified that avoidance alone wasn't fixing the elbow — needed active loading. Good instinct.
+
+**Pattern note:** Sleep deprivation from work is a recurring theme (May 6 night, now May 9 night). This is the primary threat to the morning habit right now — not motivation. Worth addressing the root cause (work hours/boundaries) when the time is right.

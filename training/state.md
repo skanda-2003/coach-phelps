@@ -28,13 +28,13 @@
 - **Phase dates:** Apr 28 – May 15 (Base) → May 15 – Jun 1 (Build) → Jun 1–5 (Taper)
 
 ## Recent Session Notes *(rolling — last 3 sessions)*
-- **2026-05-07 — Missed Strength B (unexcused):** Couldn't sleep until 2:30AM (May 6 night), woke late, other work. Unexcused.
 - **2026-05-08 — Run (Zone 2):** 5.28km, 51min, avg HR 136, peak 157. RPE 2-2.5. Walk-run method to stay Zone 2 — stopped whenever HR neared 148, resumed at 120. Didn't check time. Back and elbow fine. Strong process discipline. Woke at 5:30AM.
 - **2026-05-09 — Nandi Hills Hike:** 3h 43m total (2h 12m moving time), avg HR 110, peak 164 briefly on steep terrain. Mostly Zone 1. Easy aerobic session. Spent extra time helping someone who was struggling on the trail. Morning workout ✓.
+- **2026-05-10 — Rest/conversation:** Worked till 2AM, 5-6hrs sleep, nap 11am-3pm. Cold shower and 6am wake-up excused. Back and shoulder flags cleared. Elbow rehab program (eccentric wrist curls, reverse wrist curls, wrist flexor stretch) added to both Strength A and B templates. Strength A planned for 6-7pm.
 
 ## Active Injury Flags
-- **Right elbow — Golfer's Elbow (medial epicondylitis):** Onset Feb 14, 2026 (5hrs cricket tournament). Flares during badminton and elbow-loading movements. Avoid heavy elbow flexion under load and overhead tricep work. Apr 28: minor pain at end of 1hr chill badminton session, resolved in 5–10 min. May 1: mild flare on mis-hit shots during evening badminton, resolved. Not fully healed — monitor closely.
-- **Left lower back / iliac crest — Recurring badminton overhead pattern:** First confirmed episode Apr 1–2, 2026 (intense session, avg HR 111/peak 174) — pain lasted ~1 week. Second episode May 1, 2026 (chill session, avg HR 78) — still sore same evening. May 2: pain localized to specific point around left top hip bone (iliac crest area) — possible QL/iliolumbar ligament or gluteus medius origin involvement. Triggered by overhead shots (smash/clear mechanics). Concerning that even a low-intensity session is enough to flare it. Likely lumbar rotation/extension under load — possible thoracic mobility restriction forcing lumbar compensation. Needs physio assessment. Until then: cap overhead shot volume, avoid back-to-back badminton days when sore.
+- **Right elbow — Golfer's Elbow (medial epicondylitis):** Onset Feb 14, 2026 (5hrs cricket tournament). Flares during badminton and elbow-loading movements. Avoid heavy elbow flexion under load and overhead tricep work. Apr 28: minor pain. May 1: mild flare on mis-hits, resolved. May 10: active rehab started — eccentric wrist curls, reverse wrist curls, wrist flexor stretch added to both Strength A and B. Monitor response over next 2-3 weeks.
+- ~~**Left lower back / iliac crest:**~~ **CLEARED May 10** — Skanda confirmed resolved. Was badminton-specific deconditioning, not a structural issue. No restrictions.
 
 ## Current Week Plan
 **Week of Apr 28 – May 5, 2026 — Week 1 (Base Phase)**
@@ -52,7 +52,7 @@
 - Thu May 7: Strength B — MISSED (unexcused — poor sleep, couldn't sleep until 2:30AM, woke late) ✗
 - Fri May 8: Run — 5.28km Zone 2, 51min, avg HR 136. Walk-run method. RPE 2-2.5. Woke 5:30AM. ✓
 - Sat May 9: Nandi Hills Hike — 3h 43m (2h 12m moving), avg HR 110, Zone 1. Swapped for planned run. Morning workout ✓
-- Sun May 10: Strength A — lower body + core (make up May 5 missed session; back flag — sub RDLs for bird-dogs if pain)
+- Sun May 10: Strength A — lower body + core + shoulder & elbow finisher (planned 6-7pm)
 - Mon May 11: Run — 4km easy (Zone 2)
 
 ## Learned Patterns
