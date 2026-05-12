@@ -28,9 +28,9 @@
 - **Phase dates:** Apr 28 – May 15 (Base) → May 15 – Jun 1 (Build) → Jun 1–5 (Taper)
 
 ## Recent Session Notes *(rolling — last 3 sessions)*
-- **2026-05-08 — Run (Zone 2):** 5.28km, 51min, avg HR 136, peak 157. RPE 2-2.5. Walk-run method to stay Zone 2 — stopped whenever HR neared 148, resumed at 120. Didn't check time. Back and elbow fine. Strong process discipline. Woke at 5:30AM.
 - **2026-05-09 — Nandi Hills Hike:** 3h 43m total (2h 12m moving time), avg HR 110, peak 164 briefly on steep terrain. Mostly Zone 1. Easy aerobic session. Spent extra time helping someone who was struggling on the trail. Morning workout ✓.
 - **2026-05-10 — Rest/conversation:** Worked till 2AM, 5-6hrs sleep, nap 11am-3pm. Cold shower and 6am wake-up excused. Back and shoulder flags cleared. Elbow rehab program (eccentric wrist curls, reverse wrist curls, wrist flexor stretch) added to both Strength A and B templates. Strength A planned for 6-7pm.
+- **2026-05-12 — Run (Zone 2):** 5.07km, 47min, avg HR 139.8, peak 160. RPE 3.4-4 (31°C heat, no shade). Walk-run method. Woke 7:30am. Cold shower ✓. Elbow clear. May 10 Strength A and May 11 Run both missed (unexcused).
 
 ## Active Injury Flags
 - **Right elbow — Golfer's Elbow (medial epicondylitis):** Onset Feb 14, 2026 (5hrs cricket tournament). Flares during badminton and elbow-loading movements. Avoid heavy elbow flexion under load and overhead tricep work. Apr 28: minor pain. May 1: mild flare on mis-hits, resolved. May 10: active rehab started — eccentric wrist curls, reverse wrist curls, wrist flexor stretch added to both Strength A and B. Monitor response over next 2-3 weeks.
@@ -52,8 +52,11 @@
 - Thu May 7: Strength B — MISSED (unexcused — poor sleep, couldn't sleep until 2:30AM, woke late) ✗
 - Fri May 8: Run — 5.28km Zone 2, 51min, avg HR 136. Walk-run method. RPE 2-2.5. Woke 5:30AM. ✓
 - Sat May 9: Nandi Hills Hike — 3h 43m (2h 12m moving), avg HR 110, Zone 1. Swapped for planned run. Morning workout ✓
-- Sun May 10: Strength A — lower body + core + shoulder & elbow finisher (planned 6-7pm)
-- Mon May 11: Run — 4km easy (Zone 2)
+- Sun May 10: Strength A — MISSED (unexcused) ✗
+- Mon May 11: Run — MISSED (unexcused) ✗
+
+**Week of May 12–18, 2026 — Week 3 (Base → Build transition May 15)**
+- Tue May 12: Run — 5.07km Zone 2, 47min, avg HR 139.8, peak 160. RPE 3.4-4 (heat). Walk-run. Swapped from planned Strength A. ✓
 
 ## Learned Patterns
 - **Burst mode athlete:** Goes all-in when motivated (12-13 days straight badminton, jumping into football without a base). Body breaks down predictably. Imposed structure will protect him from himself.

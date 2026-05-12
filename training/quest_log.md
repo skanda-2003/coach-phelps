@@ -6,15 +6,15 @@
 Day 15 of 60 | 25.0% complete | Ends 2026-06-27
 
 ## Main Quest: 23km on the 23rd
-Progress: 0/15 | Pace: 0.0/week | Need: 2.3/week to finish on time
-Status: **BEHIND PACE**
+Progress: 3/15 | Pace: 1.5/week | Need: 1.8/week to finish on time
+Status: **SLIGHTLY BEHIND**
 
 ## Side Quests
 
 | Quest | Type | Progress | Streak | Rate | Status |
 |-------|------|----------|--------|------|--------|
-| Cold Shower | daily streak | 3/4 days | 3d | 75% | active |
-| 6am Wake-Up | daily streak | 3/4 days | 3d | 75% | active |
+| Cold Shower | daily streak | 2/4 days | 1d | 50% | active |
+| 6am Wake-Up | daily streak | 1/4 days | 0d | 25% | active |
 | Protein Target | daily streak | 0/4 days | 0d | 0% | active |
 | 8hrs Sleep | daily streak | 0/4 days | 0d | 0% | active |
 

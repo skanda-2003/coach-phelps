@@ -24,8 +24,9 @@ The spine of the plan. Every run is progressive. The May 30 long run is the mile
 | 1 | Apr 29 | 5km | ✓ | Zone 3-4, run-walk. First run back. |
 | 2 | May 6 | 4km | ✗ | Missed — unexcused (work, self-caused) |
 | 2b | May 8 | 5.28km | ✓ | Walk-run to stay Zone 2. Avg HR 136, peak 157. RPE 2-2.5. Woke 5:30AM. Strong process discipline. |
-| 3 | May 9 | 5km | | Zone 2 |
-| 4 | May 11 | 4km | | Zone 2 |
+| 3 | May 9 | 5km | ~ | Swapped — Nandi Hills Hike (Zone 1, not a run) |
+| 4 | May 11 | 4km | ✗ | Missed — unexcused |
+| 3b | May 12 | 5.07km | ✓ | Walk-run. Avg HR 139.8, peak 160. RPE 3.4-4 (31°C heat). Cold shower ✓. |
 | 5 | May 13 | 5km | | Zone 2 |
 | 6 | May 16 | 6km | | First step up |
 | 7 | May 18 | 5km | | Zone 2 |
@@ -64,9 +65,9 @@ The spine of the plan. Every run is progressive. The May 30 long run is the mile
 | Wed May 6 | Run #2 — 4km | ✗ | Missed — unexcused (work, self-caused consequences) |
 | Thu May 7 | Strength B — upper + core | ✗ | Missed — unexcused. Couldn't sleep until 2:30AM, woke late. |
 | Fri May 8 | Run #2b — 5.28km | ✓ | Zone 2, walk-run method. Avg HR 136. RPE 2-2.5. Woke 5:30AM. |
-| Sat May 9 | Run #3 — 5km | | Zone 2 |
-| Sun May 10 | Strength A — lower + core | | Make up May 5 missed session. Back flag — sub RDLs for bird-dogs if pain. |
-| Mon May 11 | Run #4 — 4km | | Zone 2 |
+| Sat May 9 | Run #3 — 5km | ~ | Swapped — Nandi Hills Hike (Zone 1, 3h43m) |
+| Sun May 10 | Strength A — lower + core | ✗ | Missed — unexcused |
+| Mon May 11 | Run #4 — 4km | ✗ | Missed — unexcused |
 
 ---
 
@@ -74,7 +75,7 @@ The spine of the plan. Every run is progressive. The May 30 long run is the mile
 
 | Day | Session | Status | Notes |
 |-----|---------|--------|-------|
-| Tue May 12 | Strength A — lower + core | | |
+| Tue May 12 | Run — 5.07km Zone 2 | ✓ | Swapped from Strength A. Avg HR 139.8, peak 160. RPE 3.4-4 (31°C heat). |
 | Wed May 13 | Run #5 — 5km | | Zone 2 |
 | Thu May 14 | Strength B — upper + core | | |
 | Fri May 15 | Mobility — 30min | | Phase shifts here — Base ends, Build begins |

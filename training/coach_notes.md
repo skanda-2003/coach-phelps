@@ -152,3 +152,21 @@ Sleep deprived going into today: hike on May 9 was on 4hrs sleep (worked late Ma
 **Rehab program started:** Added eccentric wrist curls, reverse wrist curls, and wrist flexor stretch as a dedicated Shoulder & Elbow phase in Strength A, and as a Shoulder phase + Elbow Rehab phase in Strength B. Shoulder strengthening (Y raises, external rotation) also added to both. Skanda correctly identified that avoidance alone wasn't fixing the elbow — needed active loading. Good instinct.
 
 **Pattern note:** Sleep deprivation from work is a recurring theme (May 6 night, now May 9 night). This is the primary threat to the morning habit right now — not motivation. Worth addressing the root cause (work hours/boundaries) when the time is right.
+
+---
+
+## 2026-05-11 — Unexcused gap day
+
+Cold shower, 6am wake-up, and run all missed. No injury excuse. Part of a heat-related sleep disruption pattern — hard to sleep early in Bangalore May heat → later wake-up → skipped sessions.
+
+---
+
+## 2026-05-12 — Run (Zone-2 Run, 5.07km, 47min)
+
+Third completed run in the challenge. Avg HR 139.8, peak 160. RPE 3.4-4 — elevated from May 8 (2-2.5) entirely due to heat (31°C, no shade). Started 8:34am local — too late, target is done by 8:30am.
+
+**Heat-sleep feedback loop:** May heat makes it hard to sleep early → later wake-up (7:30am today) → run pushed into warmer conditions. Suggested flipping cold shower to evenings (10:30-11pm) to lower core temp before sleep as a lever to break this cycle. Track whether it helps.
+
+**Elbow:** No issues during run. Two days into active rehab program — positive early signal.
+
+**May 10 Strength A and May 11 Run missed (unexcused):** Two more missed sessions. Pattern is still fragile — misses cluster together. The heat is a new external factor layered on top of the existing motivation-fragility pattern.
