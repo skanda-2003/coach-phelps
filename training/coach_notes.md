@@ -170,3 +170,15 @@ Third completed run in the challenge. Avg HR 139.8, peak 160. RPE 3.4-4 — elev
 **Elbow:** No issues during run. Two days into active rehab program — positive early signal.
 
 **May 10 Strength A and May 11 Run missed (unexcused):** Two more missed sessions. Pattern is still fragile — misses cluster together. The heat is a new external factor layered on top of the existing motivation-fragility pattern.
+
+---
+
+## 2026-05-13 — Run (Zone-2 Run, 5.26km, 46min)
+
+Up all night (drinking). No sleep. Still went for the run at 5:21am before sleeping — specifically to protect the habit. Ran on fumes and got the job done. Avg HR 135, peak 158. RPE 5, elevated only from the physical state — the run itself was well-managed.
+
+**Habit protection instinct:** This is a real shift. He didn't rationalize a skip ("I had a big night, I'll go tomorrow"). He correctly identified his own failure pattern ("if I sleep first, I miss it") and built a counter-move. That's not beginner behavior. Worth calling out.
+
+**HR trend improving:** 139.8 avg on May 12 → 135 avg today, in worse physical condition. Zone 2 discipline is becoming automatic. Body adapting.
+
+**Weight confirmed:** 71kg. Protein target set at 130g/day (1.8g/kg). Nutrition has been inconsistent — protein hit on May 12, missed today (hungover). Side quest tracking now active.

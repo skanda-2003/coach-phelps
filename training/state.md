@@ -9,6 +9,7 @@
 - **Timeline / Upcoming events:** June 5, 2026 — 23rd Birthday (23km run goal)
 - **Coaching style preference:** Accountability-first, encouragement when things get hard
 - **Timezone:** Asia/Kolkata (IST, UTC+5:30)
+- **Weight:** 71kg | **Protein target:** ~130g/day (1.8g/kg)
 
 ## Equipment
 - Adjustable dip bars
@@ -28,9 +29,8 @@
 - **Phase dates:** Apr 28 – May 15 (Base) → May 15 – Jun 1 (Build) → Jun 1–5 (Taper)
 
 ## Recent Session Notes *(rolling — last 3 sessions)*
-- **2026-05-09 — Nandi Hills Hike:** 3h 43m total (2h 12m moving time), avg HR 110, peak 164 briefly on steep terrain. Mostly Zone 1. Easy aerobic session. Spent extra time helping someone who was struggling on the trail. Morning workout ✓.
-- **2026-05-10 — Rest/conversation:** Worked till 2AM, 5-6hrs sleep, nap 11am-3pm. Cold shower and 6am wake-up excused. Back and shoulder flags cleared. Elbow rehab program (eccentric wrist curls, reverse wrist curls, wrist flexor stretch) added to both Strength A and B templates. Strength A planned for 6-7pm.
 - **2026-05-12 — Run (Zone 2):** 5.07km, 47min, avg HR 139.8, peak 160. RPE 3.4-4 (31°C heat, no shade). Walk-run method. Woke 7:30am. Cold shower ✓. Elbow clear. May 10 Strength A and May 11 Run both missed (unexcused).
+- **2026-05-13 — Run (Zone 2):** 5.26km, 46min, avg HR 135, peak 158. RPE 5 (no sleep, post-drinking — up all night). Ran at 5:21am before sleeping to protect habit. Clean Zone 2 given the state. Slept 8hrs after. Cold shower ✓. 6am wake-up missed (unexcused). Weight confirmed: 71kg. Protein target set at 130g/day.
 
 ## Active Injury Flags
 - **Right elbow — Golfer's Elbow (medial epicondylitis):** Onset Feb 14, 2026 (5hrs cricket tournament). Flares during badminton and elbow-loading movements. Avoid heavy elbow flexion under load and overhead tricep work. Apr 28: minor pain. May 1: mild flare on mis-hits, resolved. May 10: active rehab started — eccentric wrist curls, reverse wrist curls, wrist flexor stretch added to both Strength A and B. Monitor response over next 2-3 weeks.
@@ -57,6 +57,7 @@
 
 **Week of May 12–18, 2026 — Week 3 (Base → Build transition May 15)**
 - Tue May 12: Run — 5.07km Zone 2, 47min, avg HR 139.8, peak 160. RPE 3.4-4 (heat). Walk-run. Swapped from planned Strength A. ✓
+- Wed May 13: Run — 5.26km Zone 2, 46min, avg HR 135, peak 158. RPE 5 (no sleep, post-drinking). Ran before sleeping to protect habit. ✓
 
 ## Learned Patterns
 - **Burst mode athlete:** Goes all-in when motivated (12-13 days straight badminton, jumping into football without a base). Body breaks down predictably. Imposed structure will protect him from himself.
