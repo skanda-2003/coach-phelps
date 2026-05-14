@@ -28,6 +28,7 @@ The spine of the plan. Every run is progressive. The May 30 long run is the mile
 | 4 | May 11 | 4km | ✗ | Missed — unexcused |
 | 3b | May 12 | 5.07km | ✓ | Walk-run. Avg HR 139.8, peak 160. RPE 3.4-4 (31°C heat). Cold shower ✓. |
 | 5 | May 13 | 5.26km | ✓ | No sleep, post-drinking. RPE 5. Avg HR 135. Habit protected. |
+| 5b | May 14 | 6.12km | ✓ | Unplanned. Swapped from Strength B. Avg HR 139.8, peak 163. RPE 6-7 (residual dehydration). New distance high. |
 | 6 | May 16 | 6km | | First step up |
 | 7 | May 18 | 5km | | Zone 2 |
 | 8 | May 20 | 6km | | Zone 2 |
@@ -77,7 +78,7 @@ The spine of the plan. Every run is progressive. The May 30 long run is the mile
 |-----|---------|--------|-------|
 | Tue May 12 | Run — 5.07km Zone 2 | ✓ | Swapped from Strength A. Avg HR 139.8, peak 160. RPE 3.4-4 (31°C heat). |
 | Wed May 13 | Run #5 — 5km | ✓ | 5.26km, avg HR 135, peak 158. RPE 5 (no sleep, post-drinking). Ran before sleeping to protect habit. Clean Zone 2 given the state. |
-| Thu May 14 | Strength B — upper + core | | |
+| Thu May 14 | Run #5b — 6.12km Zone 2 | ✓ | Swapped from Strength B. Avg HR 139.8, peak 163. RPE 6-7 (residual dehydration). New distance high. Strength B deferred. |
 | Fri May 15 | Mobility — 30min | | Phase shifts here — Base ends, Build begins |
 | Sat May 16 | Run #6 — 6km | | First step up in distance |
 | Sun May 17 | Mobility — 30min | | Hip mobility, thoracic rotation |

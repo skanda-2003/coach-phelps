@@ -182,3 +182,13 @@ Up all night (drinking). No sleep. Still went for the run at 5:21am before sleep
 **HR trend improving:** 139.8 avg on May 12 → 135 avg today, in worse physical condition. Zone 2 discipline is becoming automatic. Body adapting.
 
 **Weight confirmed:** 71kg. Protein target set at 130g/day (1.8g/kg). Nutrition has been inconsistent — protein hit on May 12, missed today (hungover). Side quest tracking now active.
+
+---
+
+## 2026-05-14 — Run (Zone-2 Run, 6.12km, 57min)
+
+Three consecutive Zone 2 runs (May 12, 13, 14). Today was unplanned — swapped from Strength B. New distance high this challenge.
+
+**RPE/HR decoupling from dehydration:** RPE 6-7 vs avg HR 139.8. The gap is larger than heat or fitness would explain — residual dehydration the cause. Useful pattern: when RPE is significantly above what HR predicts, check hydration state first before attributing to fitness regression.
+
+**Morning habit solidifying:** 6am wake-up, cold shower, and sleep all logged done. Three consecutive days of habit compliance. The early-morning window is becoming the default, not the exception.
