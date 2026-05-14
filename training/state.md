@@ -59,6 +59,10 @@
 - Tue May 12: Run — 5.07km Zone 2, 47min, avg HR 139.8, peak 160. RPE 3.4-4 (heat). Walk-run. Swapped from planned Strength A. ✓
 - Wed May 13: Run — 5.26km Zone 2, 46min, avg HR 135, peak 158. RPE 5 (no sleep, post-drinking). Ran before sleeping to protect habit. ✓
 - Thu May 14: Run — 6.12km Zone 2, 57min, avg HR 139.8, peak 163. RPE 6-7 (residual dehydration). Swapped from Strength B. New distance high. 6am ✓. Cold shower ✓. Sleep ✓. Protein (May 13) ✗. ✓
+- Fri May 15: Strength B — upper + core (swapped from mobility)
+- Sat May 16: Run #6 — 6km (first step up)
+- Sun May 17: Strength A — lower + core (swapped from mobility)
+- Mon May 18: Run #7 — 5km (Zone 2 — if legs heavy from Sun, walk more)
 
 ## Learned Patterns
 - **Burst mode athlete:** Goes all-in when motivated (12-13 days straight badminton, jumping into football without a base). Body breaks down predictably. Imposed structure will protect him from himself.
