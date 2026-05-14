@@ -6,8 +6,8 @@
 Day 17 of 60 | 28.3% complete | Ends 2026-06-27
 
 ## Main Quest: 23km on the 23rd
-Progress: 5/15 | Pace: 2.2/week | Need: 1.6/week to finish on time
-Status: **ON TRACK**
+Progress: 0/15 | Pace: 0.0/week | Need: 2.4/week to finish on time
+Status: **BEHIND PACE**
 
 ## Side Quests
 
